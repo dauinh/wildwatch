@@ -10,6 +10,14 @@ The aim is to create a dashboard that:
 
 1. Data collection
 - [ ] Write Python scripts to pull data from API
+- IUCN
+  - Categories: EN - Endangered, CR - Critically Endangered
+  - Taxonomy: all
+  - Land Regions: all
+  - Marine Regions: all
+  - Habitats: all
+  - Biogeographical Realm: all
+- GBIF
 - [ ] Store in CSVs (AWS S3)
 - [ ] Schedule scrips in Airflow for every 16 weeks ([Red List update](https://www.iucnredlist.org/assessment/updates#:~:text=To%20ensure%20a%20regular%20flow,at%20least%20twice%20each%20year.))
 
