@@ -1,7 +1,7 @@
 import sys
 import os
 import requests
-import json
+import csv
 from pprint import pprint
 from datetime import datetime
 from pathlib import Path
@@ -33,16 +33,29 @@ def get_realms():
         raise SystemExit(e)
 
 
-def get_en_species():
-    """Returns a list of the latest assessments for endangered species."""
+def get_metatdata_en_species():
+    """Returns total count and page count for list of endangered species."""
     try:
         r = requests.get(
             f"{DOMAIN}/red_list_categories/EN?year_published={datetime.now().year}",
             headers=HEADERS,
         )
+        return int(r.headers['total-count']), int(r.headers['total-pages'])
+    except requests.exceptions.HTTPError as e:
+        raise SystemExit(e)
+    
+
+def get_en_species(page):
+    """Returns a list of the latest assessments for endangered species."""
+    try:
+        r = requests.get(
+            f"{DOMAIN}/red_list_categories/EN?page={page}&year_published={datetime.now().year}",
+            headers=HEADERS,
+        )
         return r.json()
     except requests.exceptions.HTTPError as e:
         raise SystemExit(e)
+
 
 def get_assess(id):
     """Returns assessment data for a supplied assessment_id. 
@@ -58,9 +71,37 @@ def get_assess(id):
         raise SystemExit(e)
 
 
+def extract_assess(id, data):
+    """Extract JSON data into rows."""
+    return [
+        id,
+        [conser['code'] for conser in data['conservation_actions']],
+        [(h['code'], h['majorImportance'], h['season']) for h in data['habitats']],
+        [loc['code'] for loc in data['locations']],
+        data['population_trend']['code'],
+        data['possibly_extinct'],
+        data['possibly_extinct_in_the_wild'],
+        data['sis_taxon_id'],
+        data['supplementary_info']['estimated_area_of_occupancy'],
+        data['supplementary_info']['estimated_extent_of_occurence'],
+        data['taxon']['kingdom_name'],
+        [(thr['code'], thr['timing'], thr['scope'], thr['score'], thr['severity']) for thr in data['threats']],
+        data['url']
+    ]
+
+
 if __name__ == "__main__":
-    # print(get_en_species())
-    data = get_assess(949716)
-    with open(Path(DATA_DIR / 'sample_assess.json'), 'w') as f:
-        json.dump(data, f)
-    pprint(data)
+    total_count, total_pages = get_metatdata_en_species()
+    with open(Path(DATA_DIR / 'EN.csv'), 'w', newline='') as f:
+        writer = csv.writer(f)
+        fields = ['id', 'conservation_actions', 'habitats', 'locations', 'population_trend', 'possibly_extinct', 'possibly_extinct_in_the_wild', 'sis_taxon_id', 'estimated_area_of_occupancy', 'estimated_extent_of_occurence', 'taxon', 'threats', 'url']
+        writer.writerow(fields)
+
+    with open(Path(DATA_DIR / 'EN.csv'), 'a', newline='') as f:
+        writer = csv.writer(f)
+        for page in range(1, total_pages + 1):
+            for assess in get_en_species(page)['assessments']:
+                id = assess['assessment_id']
+                data = get_assess(id)
+                row = extract_assess(id, data)
+                writer.writerow(row)

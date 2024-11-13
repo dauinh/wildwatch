@@ -9,7 +9,7 @@ The aim is to create a dashboard that:
 ## TODO
 
 1. Data collection
-- [ ] Write Python scripts to pull data from API
+- [x] Write Python scripts to pull data from API
 - IUCN: Categories: `EN` - Endangered, `CR` - Critically Endangered
   - `conservation_actions`: `[<code>]`
   - `habitats`: `<code>`, `<majorImportance>`, `<season>`
@@ -25,7 +25,7 @@ The aim is to create a dashboard that:
   - `threats`: `[<code>, <timing>, <scope>, <score>, <severity>]`
   - `url`
 - GBIF
-- [ ] Store in CSVs (AWS S3)
+- [x] Store in CSVs (AWS S3)
 - [ ] Schedule scrips in Airflow for every 16 weeks ([Red List update](https://www.iucnredlist.org/assessment/updates#:~:text=To%20ensure%20a%20regular%20flow,at%20least%20twice%20each%20year.))
 
 2. Data processing
