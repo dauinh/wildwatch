@@ -10,13 +10,20 @@ The aim is to create a dashboard that:
 
 1. Data collection
 - [ ] Write Python scripts to pull data from API
-- IUCN
-  - Categories: EN - Endangered, CR - Critically Endangered
-  - Taxonomy: all
-  - Land Regions: all
-  - Marine Regions: all
-  - Habitats: all
-  - Biogeographical Realm: all
+- IUCN: Categories: `EN` - Endangered, `CR` - Critically Endangered
+  - `conservation_actions`: `[<code>]`
+  - `habitats`: `<code>`, `<majorImportance>`, `<season>`
+  - `locations`: `<origin>:  <code>`
+  - `population_trend`
+  - `possibly_extinct`
+  - `possibly_extinct_in_the_wild`
+  - `sis_taxon_id`
+  - `estimated_area_of_occupancy` (`supplementary_info`)
+  - `estimated_extent_of_occurence` (`supplementary_info`)
+  - `systems`
+  - `taxon`: `<kingdom_name>`
+  - `threats`: `[<code>, <timing>, <scope>, <score>, <severity>]`
+  - `url`
 - GBIF
 - [ ] Store in CSVs (AWS S3)
 - [ ] Schedule scrips in Airflow for every 16 weeks ([Red List update](https://www.iucnredlist.org/assessment/updates#:~:text=To%20ensure%20a%20regular%20flow,at%20least%20twice%20each%20year.))
@@ -53,9 +60,10 @@ The aim is to create a dashboard that:
 ## Dataset
 
 1. IUCN Red List: Provides conservation status for various species
+
+IUCN 2024. IUCN Red List of Threatened Species. Version 2024-2 <www.iucnredlist.org>
+
+[API documentation](https://api.iucnredlist.org/api-docs/index.html)
+
 2. GBIF (Global Biodiversity Information Facility): Offers datasets on species sightings with geographic coordinates, which can be filtered for endangered species.
 3. NOAA: Use NOAA's datasets for environmental factors like ocean temperatures, which could help correlate with animal population trends.
-
-## Reference
-
-1. IUCN 2024. IUCN Red List of Threatened Species. Version 2024-2 <www.iucnredlist.org>
