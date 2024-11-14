@@ -19,16 +19,11 @@ if not TOKEN:
 HEADERS = {"Authorization": TOKEN}
 
 # Download directory
-DATA_DIR = Path("./raw_data")
+DATA_DIR = Path("../raw_data")
 
 
-def get_realms():
-    """Returns a list of available biogeographical realms (e.g. Neotropical or Palearctic)."""
-    try:
-        r = requests.get(f"{DOMAIN}/biogeographical_realms", headers=HEADERS)
-        return r.json()
-    except requests.exceptions.HTTPError as e:
-        raise SystemExit(e)
+def testing():
+    print('hello world')
 
 
 def get_metatdata_en_species():
@@ -70,7 +65,7 @@ def get_assess(id):
 
 
 def transform_assess(id, data):
-    """Extract JSON data into rows."""
+    """Tranform JSON data into rows for CSV file."""
     return [
         id,
         [conser['code'] for conser in data['conservation_actions']],
@@ -88,7 +83,7 @@ def transform_assess(id, data):
     ]
 
 
-def extract_en_species():
+def main():
     total_count, total_pages = get_metatdata_en_species()
     with open(Path(DATA_DIR / 'EN.csv'), 'w', newline='') as f:
         writer = csv.writer(f)
@@ -104,3 +99,7 @@ def extract_en_species():
                 row = transform_assess(id, data)
                 writer.writerow(row)
             print(f'Page {page} data downloaded!')
+
+
+if __name__ == "__main__":
+    main()
