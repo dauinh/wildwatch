@@ -8,8 +8,6 @@ from airflow.operators.python import PythonOperator
 
 from .collect import extract_en_species
 
-dag_path = os.getcwd()
-
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,

@@ -1,0 +1,29 @@
+[2024-11-14T00:25:31.030+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-14T00:25:31.035+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_etl.extract_data scheduled__2024-01-06T00:00:00+00:00 [queued]>
+[2024-11-14T00:25:31.038+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_etl.extract_data scheduled__2024-01-06T00:00:00+00:00 [queued]>
+[2024-11-14T00:25:31.038+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-14T00:25:31.042+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract_data> on 2024-01-06 00:00:00+00:00
+[2024-11-14T00:25:31.045+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=127) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-14T00:25:31.045+0000] {standard_task_runner.py:72} INFO - Started process 128 to run task
+[2024-11-14T00:25:31.046+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'weather_etl', 'extract_data', 'scheduled__2024-01-06T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/sample_dag.py', '--cfg-path', '/tmp/tmp5o15di19']
+[2024-11-14T00:25:31.046+0000] {standard_task_runner.py:105} INFO - Job 17: Subtask extract_data
+[2024-11-14T00:25:31.061+0000] {task_command.py:467} INFO - Running <TaskInstance: weather_etl.extract_data scheduled__2024-01-06T00:00:00+00:00 [running]> on host cdbc0cb84826
+[2024-11-14T00:25:31.088+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='weather_etl' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-06T00:00:00+00:00'
+[2024-11-14T00:25:31.088+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-14T00:25:31.088+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-14T00:25:31.089+0000] {logging_mixin.py:190} INFO - Current task name:extract_data state:running start_date:2024-11-14 00:25:31.035947+00:00
+[2024-11-14T00:25:31.089+0000] {logging_mixin.py:190} INFO - Dag name:weather_etl and current dag run status:running
+[2024-11-14T00:25:31.089+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-14T00:25:31.089+0000] {logging_mixin.py:190} INFO - Extracting data from an weather API
+[2024-11-14T00:25:31.089+0000] {python.py:240} INFO - Done. Returned value was: {'date': '2023-01-01', 'location': 'NYC', 'weather': {'temp': 33, 'conditions': 'Light snow and wind'}}
+[2024-11-14T00:25:31.096+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-14T00:25:31.096+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=weather_etl, task_id=extract_data, run_id=scheduled__2024-01-06T00:00:00+00:00, execution_date=20240106T000000, start_date=20241114T002531, end_date=20241114T002531
+[2024-11-14T00:25:31.099+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-14T00:25:31.099+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-14T00:25:31.099+0000] {logging_mixin.py:190} INFO - Dag name:weather_etl queued_at:2024-11-14 00:25:30.439616+00:00
+[2024-11-14T00:25:31.099+0000] {logging_mixin.py:190} INFO - Task hostname:cdbc0cb84826 operator:PythonOperator
+[2024-11-14T00:25:31.102+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-14T00:25:31.111+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-14T00:25:31.111+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
