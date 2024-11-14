@@ -1,6 +1,6 @@
-from airflow_pipeline import DAG
 from datetime import datetime
-from airflow_pipeline.operators.python import PythonOperator
+from airflow import DAG
+from airflow.operators.python import PythonOperator
 import pandas as pd
 
 with DAG(

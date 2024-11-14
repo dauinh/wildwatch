@@ -1,10 +1,12 @@
+import sys
+sys.path.append('/Users/dauinh/wildwatch/airflow_pipeline')
 from datetime import datetime, timedelta
 
 import airflow
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-from airflow_pipeline.scripts.extract_en_species import testing
+from scripts.extract_en_species import testing
 
 with DAG(
     dag_id="en_species_etl",

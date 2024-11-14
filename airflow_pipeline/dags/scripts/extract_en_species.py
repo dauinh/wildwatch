@@ -13,13 +13,13 @@ DOMAIN = "https://api.iucnredlist.org/api/v4"
 
 # Authorization token for IUCN API
 TOKEN = os.environ.get("IUCN_API")
-if not TOKEN:
-    print("IUCN token does not exists!")
-    sys.exit()
+# if not TOKEN:
+#     print("IUCN token does not exists!")
+#     sys.exit()
 HEADERS = {"Authorization": TOKEN}
 
 # Download directory
-DATA_DIR = Path("../raw_data")
+DATA_DIR = Path("../../raw_data")
 
 
 def testing():
