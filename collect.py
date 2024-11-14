@@ -71,21 +71,21 @@ def get_assess(id):
         raise SystemExit(e)
 
 
-def extract_assess(id, data):
+def transform_assess(id, data):
     """Extract JSON data into rows."""
     return [
         id,
-        [conser['code'] for conser in data['conservation_actions']],
-        [(h['code'], h['majorImportance'], h['season']) for h in data['habitats']],
-        [loc['code'] for loc in data['locations']],
-        data['population_trend']['code'],
+        [conser['code'] for conser in data['conservation_actions'] if conser['code']],
+        [(h['code'], h['majorImportance'], h['season']) for h in data['habitats'] if h],
+        [loc['code'] for loc in data['locations'] if loc['code']],
+        data['population_trend']['code'] if data['population_trend']['code'] else 'null',
         data['possibly_extinct'],
         data['possibly_extinct_in_the_wild'],
         data['sis_taxon_id'],
-        data['supplementary_info']['estimated_area_of_occupancy'],
-        data['supplementary_info']['estimated_extent_of_occurence'],
+        data['supplementary_info']['estimated_area_of_occupancy'] if data['supplementary_info']['estimated_area_of_occupancy'] else 'null',
+        data['supplementary_info']['estimated_extent_of_occurence'] if data['supplementary_info']['estimated_extent_of_occurence'] else 'null',
         data['taxon']['kingdom_name'],
-        [(thr['code'], thr['timing'], thr['scope'], thr['score'], thr['severity']) for thr in data['threats']],
+        [(thr['code'], thr['timing'], thr['scope'], thr['score'], thr['severity']) for thr in data['threats'] if thr],
         data['url']
     ]
 
@@ -99,9 +99,13 @@ if __name__ == "__main__":
 
     with open(Path(DATA_DIR / 'EN.csv'), 'a', newline='') as f:
         writer = csv.writer(f)
-        for page in range(1, total_pages + 1):
-            for assess in get_en_species(page)['assessments']:
-                id = assess['assessment_id']
+        for assess in get_en_species(18)['assessments']:
+            id = assess['assessment_id']
+            try:
                 data = get_assess(id)
-                row = extract_assess(id, data)
+                row = transform_assess(id, data)
                 writer.writerow(row)
+            except Exception as e:
+                print(e)
+                print(f'Assessment {id} download unsuccessful!')
+        print(f'Page 18 data downloaded!')

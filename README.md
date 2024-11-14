@@ -9,23 +9,6 @@ The aim is to create a dashboard that:
 ## TODO
 
 1. Data collection
-- [x] Write Python scripts to pull data from API
-- IUCN: Categories: `EN` - Endangered, `CR` - Critically Endangered
-  - `conservation_actions`: `[<code>]`
-  - `habitats`: `<code>`, `<majorImportance>`, `<season>`
-  - `locations`: `<origin>:  <code>`
-  - `population_trend`
-  - `possibly_extinct`
-  - `possibly_extinct_in_the_wild`
-  - `sis_taxon_id`
-  - `estimated_area_of_occupancy` (`supplementary_info`)
-  - `estimated_extent_of_occurence` (`supplementary_info`)
-  - `systems`
-  - `taxon`: `<kingdom_name>`
-  - `threats`: `[<code>, <timing>, <scope>, <score>, <severity>]`
-  - `url`
-- GBIF
-- [x] Store in CSVs (AWS S3)
 - [ ] Schedule scrips in Airflow for every 16 weeks ([Red List update](https://www.iucnredlist.org/assessment/updates#:~:text=To%20ensure%20a%20regular%20flow,at%20least%20twice%20each%20year.))
 
 2. Data processing
