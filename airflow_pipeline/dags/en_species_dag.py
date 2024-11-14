@@ -1,5 +1,7 @@
 import sys
-sys.path.append('/Users/dauinh/wildwatch/airflow_pipeline')
+from airflow.models import Variable
+sys.path.append(Variable.get("PROJ_DIR"))
+
 from datetime import datetime, timedelta
 
 import airflow
