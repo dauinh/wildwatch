@@ -8,9 +8,6 @@ The aim is to create a dashboard that:
 
 ## TODO
 
-1. Data collection
-- [ ] Schedule scrips in Airflow for every 16 weeks ([Red List update](https://www.iucnredlist.org/assessment/updates#:~:text=To%20ensure%20a%20regular%20flow,at%20least%20twice%20each%20year.))
-
 2. Data processing
 - [ ] Use `pandas` for cleaning and transformation
 - [ ] Use Airflow to create tasks (collect -> clean -> save)
