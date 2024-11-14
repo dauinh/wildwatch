@@ -5,8 +5,9 @@ from datetime import datetime, timedelta
 import airflow
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.models import Variable
 
-from scripts.extract_en_species import testing
+from scripts.extract_en_species import main
 
 with DAG(
     dag_id="en_species_etl",
@@ -20,7 +21,7 @@ with DAG(
     extract_data = PythonOperator(
         dag=dag,
         task_id='extract_data',
-        python_callable=testing,
+        python_callable=main,
     )
 
     def finish_message():
