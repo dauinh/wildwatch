@@ -1,44 +1,39 @@
 import os
 import csv
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 import airflow
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-from .collect import extract_en_species
+with DAG(
+    dag_id="sample_extract",
+    start_date=datetime(year=2024, month=1, day=1, hour=9, minute=0),
+    schedule="@daily",
+    catchup=True,
+    max_active_runs=1,
+    render_template_as_native_obj=True
+) as dag:
+    def extract():
+        with open('raw_data/EN.csv', 'w') as f:
+            writer = csv.writer(f)
+            fields = ['id', 'conservation_actions', 'habitats', 'locations', 'population_trend', 'possibly_extinct', 'possibly_extinct_in_the_wild', 'sis_taxon_id', 'estimated_area_of_occupancy', 'estimated_extent_of_occurence', 'taxon', 'threats', 'url']
+            writer.writerow(fields)
 
-default_args = {
-    'owner': 'airflow',
-    'depends_on_past': False,
-    'start_date': airflow.utils.dates.days_ago(7)
-}
+    extract_data = PythonOperator(
+        dag=dag,
+        task_id='extract_data',
+        python_callable=extract,
+    )
 
-dag = DAG(
-    dag_id='extract_dag',
-    default_args=default_args,
-    schedule_interval=timedelta(days=30),
-)
+    def finish_message():
+        print('Extracted successfully!')
 
-def extract():
-    with open('raw_data/EN.csv', 'w') as f:
-        writer = csv.writer(f)
-        fields = ['id', 'conservation_actions', 'habitats', 'locations', 'population_trend', 'possibly_extinct', 'possibly_extinct_in_the_wild', 'sis_taxon_id', 'estimated_area_of_occupancy', 'estimated_extent_of_occurence', 'taxon', 'threats', 'url']
-        writer.writerow(fields)
+    message = PythonOperator(
+        dag=dag,
+        task_id='message',
+        python_callable=finish_message,
+    )
 
-extract_data = PythonOperator(
-    task_id='extract_data',
-    python_callable=extract,
-    dag=dag,
-)
-
-def finish_message():
-    print('Extracted successfully!')
-
-message = PythonOperator(
-    task_id='extract_message',
-    python_callable=finish_message,
-    dag=dag
-)
-
-extract_data >> message
+    # Set dependencies between tasks
+    extract_data >> message
