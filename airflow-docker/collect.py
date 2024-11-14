@@ -2,7 +2,7 @@ import sys
 import os
 import requests
 import csv
-from pprint import pprint
+
 from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
@@ -19,9 +19,7 @@ if not TOKEN:
 HEADERS = {"Authorization": TOKEN}
 
 # Download directory
-DATA_DIR = Path("./data")
-if os.path.exists(DATA_DIR) == False:
-    os.mkdir(DATA_DIR)
+DATA_DIR = Path("./raw_data")
 
 
 def get_realms():
@@ -71,7 +69,7 @@ def get_assess(id):
         raise SystemExit(e)
 
 
-def extract_assess(id, data):
+def transform_assess(id, data):
     """Extract JSON data into rows."""
     return [
         id,
@@ -90,7 +88,7 @@ def extract_assess(id, data):
     ]
 
 
-if __name__ == "__main__":
+def extract_en_species():
     total_count, total_pages = get_metatdata_en_species()
     with open(Path(DATA_DIR / 'EN.csv'), 'w', newline='') as f:
         writer = csv.writer(f)
@@ -103,6 +101,6 @@ if __name__ == "__main__":
             for assess in get_en_species(page)['assessments']:
                 id = assess['assessment_id']
                 data = get_assess(id)
-                row = extract_assess(id, data)
+                row = transform_assess(id, data)
                 writer.writerow(row)
             print(f'Page {page} data downloaded!')
