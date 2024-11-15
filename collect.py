@@ -77,7 +77,7 @@ def transform_assess(id, data):
         id,
         [conser['code'] for conser in data['conservation_actions'] if conser['code']],
         [(h['code'], h['majorImportance'], h['season']) for h in data['habitats'] if h],
-        [loc['code'] for loc in data['locations'] if loc['code']],
+        [(loc['origin'], loc['code']) for loc in data['locations'] if loc['code']],
         data['population_trend']['code'] if data['population_trend']['code'] else 'null',
         data['possibly_extinct'],
         data['possibly_extinct_in_the_wild'],
@@ -98,7 +98,7 @@ if __name__ == "__main__":
         writer.writerow(fields)
 
     with open(Path(DATA_DIR / 'EN.csv'), 'a', newline='') as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, quoting=csv.QUOTE_ALL)
         for assess in get_en_species(18)['assessments']:
             id = assess['assessment_id']
             try:
