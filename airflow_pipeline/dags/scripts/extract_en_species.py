@@ -65,7 +65,7 @@ def transform_assess(id, data):
         id,
         [conser['code'] for conser in data['conservation_actions'] if conser['code']],
         [(h['code'], h['majorImportance'], h['season']) for h in data['habitats'] if h],
-        [loc['code'] for loc in data['locations'] if loc['code']],
+        [(loc['origin'], loc['code']) for loc in data['locations'] if loc['code']],
         data['population_trend']['code'] if data['population_trend']['code'] else 'null',
         data['possibly_extinct'],
         data['possibly_extinct_in_the_wild'],

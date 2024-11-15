@@ -3,6 +3,8 @@ from airflow.models import Variable
 sys.path.append(Variable.get("PROJ_DIR"))
 
 from datetime import datetime, timedelta
+import pandas as pd
+import ast
 
 import airflow
 from airflow import DAG
@@ -10,6 +12,7 @@ from airflow.operators.python import PythonOperator
 from airflow.models import Variable
 
 from scripts.extract_en_species import main
+
 
 with DAG(
     dag_id="en_species_etl",
@@ -26,14 +29,34 @@ with DAG(
         python_callable=main,
     )
 
-    def finish_message():
-        print('Extracted successfully!')
+    def transform():
+        df = pd.read_csv('/opt/airflow/raw_data/EN.csv')
 
-    message = PythonOperator(
+        def create_relationship_table(table, column, is_tuple=False, tuples=[]):
+            table = df[['id', column]].copy()
+            table[column] = table[column].apply(ast.literal_eval)
+            table = table.explode(column).dropna().reset_index(drop=True)
+            if is_tuple:
+                table[tuples] = pd.DataFrame(table[column].tolist(), index=table.index)
+            return table
+        
+        conser_act_df = create_relationship_table('conser_act_df', 'conservation_actions')
+        habitats_df = create_relationship_table('habitats_df', 'habitats', is_tuple=True, tuples=['code', 'majorImportance', 'season']).drop('habitats', axis=1)
+        locations_df = create_relationship_table('locations_df', 'locations', is_tuple=True, tuples=['origin', 'code']).drop('locations', axis=1)
+        threats_df = create_relationship_table('threats_df', 'threats', is_tuple=True, tuples=['code', 'timing', 'scope', 'score', 'severity']).drop('threats', axis=1)
+        main_df = df.drop(['conservation_actions', 'locations', 'habitats', 'threats'], axis=1)
+
+        main_df.to_csv('/opt/airflow/processed_data/main.csv', header=True, index=False)
+        habitats_df.to_csv('/opt/airflow/processed_data/habitats.csv', header=True, index=False)
+        locations_df.to_csv('/opt/airflow/processed_data/locations.csv', header=True, index=False)
+        conser_act_df.to_csv('/opt/airflow/processed_data/conservation_actions.csv', header=True, index=False)
+        threats_df.to_csv('/opt/airflow/processed_data/threats.csv', header=True, index=False)
+
+    transform_data = PythonOperator(
         dag=dag,
-        task_id='message',
-        python_callable=finish_message,
+        task_id='transform_data',
+        python_callable=transform,
     )
 
     # Set dependencies between tasks
-    extract_data >> message
+    extract_data >> transform_data

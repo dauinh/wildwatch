@@ -1,0 +1,607 @@
+id,code,timing,scope,score,severity
+949716,6_2,Future,Majority (50-90%),Low Impact: 4,Causing/Could cause fluctuations
+949716,5_1_1,"Past, Unlikely to Return",Unknown,Past Impact,No decline
+949716,8_1_2,"Past, Unlikely to Return",Majority (50-90%),Past Impact,Very Rapid Declines
+949716,8_1_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+949716,8_1_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+949716,8_1_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+949716,7_3,Ongoing,Majority (50-90%),Medium Impact: 6,Causing/Could cause fluctuations
+1315527,3_1,Ongoing,,Low Impact: 3,
+1315527,2_2_1,Ongoing,,Low Impact: 3,
+1315527,2_2_2,Ongoing,,Low Impact: 3,
+1315527,2_2_3,Ongoing,,Low Impact: 3,
+1315527,1_1,Ongoing,,Low Impact: 3,
+1315527,3_2,Ongoing,,Low Impact: 3,
+1315527,4_1,Ongoing,,Low Impact: 3,
+1315527,1_2,Ongoing,,Low Impact: 3,
+1315527,4_2,Ongoing,,Low Impact: 3,
+1315527,1_3,Ongoing,,Low Impact: 3,
+1315527,2_1_2,Ongoing,,Low Impact: 3,
+1315527,2_1_3,Ongoing,,Low Impact: 3,
+1315527,7_2_3,Ongoing,,Low Impact: 3,
+1315527,5_1_1,Ongoing,,Low Impact: 3,
+1315527,5_4_1,Ongoing,,Low Impact: 3,
+1315527,7_2_5,Ongoing,,Low Impact: 3,
+1315527,7_2_6,Ongoing,,Low Impact: 3,
+1315527,7_2_7,Ongoing,,Low Impact: 3,
+1315527,6_1,Ongoing,,Low Impact: 3,
+1315527,7_2_8,Ongoing,,Low Impact: 3,
+1315527,7_2_1,Ongoing,,Low Impact: 3,
+1315527,7_2_2,Ongoing,,Low Impact: 3,
+1315527,7_2_4,Ongoing,,Low Impact: 3,
+1315527,9_2_2,Ongoing,,Low Impact: 3,
+1315527,9_2_1,Ongoing,,Low Impact: 3,
+1315527,9_3_1,Ongoing,,Low Impact: 3,
+1315527,9_3_2,Ongoing,,Low Impact: 3,
+1315527,9_3_3,Ongoing,,Low Impact: 3,
+1315527,7_2_9,Ongoing,,Low Impact: 3,
+1315527,7_2_11,Ongoing,,Low Impact: 3,
+1315527,9_1_1,Ongoing,,Low Impact: 3,
+1593392,2_1_4,Ongoing,,Low Impact: 3,
+1593392,1_1,Ongoing,,Low Impact: 3,
+1593392,5_3_5,Ongoing,,Low Impact: 3,
+1676767,5_4_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+1676767,7_2_9,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+1676767,8_1_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+1824169,2_2_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+1824169,1_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+1824169,2_1_3,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+1824169,2_3_3,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+1824169,7_2_3,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+1851516,7_2_9,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+2388572,8_1_2,Ongoing,Whole (>90%),Unknown,Unknown
+2538113,8_4_2,Ongoing,Unknown,Unknown,Very Rapid Declines
+2538113,8_4_2,Ongoing,Unknown,Unknown,Very Rapid Declines
+2538737,8_1_2,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+2538737,2_1_4,"Past, Unlikely to Return",Majority (50-90%),Past Impact,"Slow, Significant Declines"
+2538737,8_1_2,"Past, Unlikely to Return",Whole (>90%),Past Impact,Very Rapid Declines
+2541760,8_1_2,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+2541760,2_1_2,Ongoing,Majority (50-90%),Medium Impact: 6,Causing/Could cause fluctuations
+2541760,8_1_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+2542677,8_1_1,Ongoing,Whole (>90%),Medium Impact: 7,Causing/Could cause fluctuations
+2542677,8_1_2,Future,Whole (>90%),Medium Impact: 7,Very Rapid Declines
+2542677,8_1_2,Future,Whole (>90%),Medium Impact: 7,Very Rapid Declines
+2754901,2_2_2,Ongoing,Whole (>90%),High Impact: 9,Very Rapid Declines
+2754901,1_1,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+2754901,3_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+2754901,4_1,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+2754901,1_2,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+2754901,5_3_3,Ongoing,Minority (<50%),Medium Impact: 7,Very Rapid Declines
+2754901,2_1_2,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+2866568,7_1_1,Ongoing,,Unknown,Unknown
+2866568,5_3_5,Ongoing,,Low Impact: 3,
+2867993,3_2,Ongoing,,Low Impact: 3,
+2867993,1_1,Ongoing,,Low Impact: 3,
+2867993,2_1_2,Ongoing,,Low Impact: 3,
+2868715,10_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+2868715,11_1,Ongoing,Whole (>90%),Medium Impact: 7,"Slow, Significant Declines"
+2868715,11_3,Ongoing,Whole (>90%),Medium Impact: 7,"Slow, Significant Declines"
+2868715,11_4,Ongoing,Whole (>90%),Medium Impact: 7,"Slow, Significant Declines"
+2868715,2_3_4,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+2868715,3_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+2868715,5_3_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+2868715,2_1_4,Ongoing,Majority (50-90%),Low Impact: 5,
+18609119,1_1,Ongoing,Whole (>90%),Unknown,Unknown
+18609119,1_3,Ongoing,Whole (>90%),Medium Impact: 6,
+18609119,8_1_2,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+18609119,9_4,Ongoing,Minority (<50%),Low Impact: 5,Causing/Could cause fluctuations
+18609165,1_1,Ongoing,Majority (50-90%),Low Impact: 5,
+18609165,2_1_2,Ongoing,Majority (50-90%),Low Impact: 5,
+18609165,7_1_3,"Past, Likely to Return",Majority (50-90%),Past Impact,
+18609320,2_3_1,Ongoing,,Unknown,Unknown
+18609320,1_3,Ongoing,Unknown,Unknown,Unknown
+18609320,4_1,Ongoing,Unknown,Unknown,Unknown
+18609559,4_1,Future,Unknown,Unknown,Unknown
+18609559,2_3_4,Future,Unknown,Unknown,Unknown
+18612465,2_1_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+18612465,1_1,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+18612465,7_2_3,Ongoing,Minority (<50%),Unknown,Unknown
+18612745,2_3_4,Ongoing,Unknown,Unknown,Unknown
+18612745,1_3,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+18612745,2_3_1,Ongoing,Unknown,Unknown,Unknown
+18612780,2_3_4,Ongoing,Unknown,Unknown,Unknown
+18612780,7_1_3,Ongoing,Unknown,Unknown,Unknown
+18612865,1_3,Future,Unknown,Unknown,Unknown
+18612865,1_1,Future,Unknown,Unknown,Unknown
+18612865,1_2,Ongoing,,Low Impact: 3,
+18613335,2_3_2,Ongoing,Whole (>90%),Unknown,Unknown
+22308615,1_1,Ongoing,,Low Impact: 3,
+22308615,2_1_2,Ongoing,,Low Impact: 3,
+22308615,2_1_3,Ongoing,,Low Impact: 3,
+22308615,4_1,Ongoing,,Low Impact: 3,
+22319797,2_1_2,Ongoing,,Low Impact: 3,
+22319797,2_1_3,Ongoing,,Low Impact: 3,
+22319797,5_3_5,Ongoing,,Low Impact: 3,
+22319797,7_1_3,Ongoing,,Low Impact: 3,
+42284340,2_3_2,Ongoing,,Low Impact: 3,
+42284340,7_1_1,Ongoing,,Low Impact: 3,
+42533783,2_3_2,Ongoing,,Low Impact: 5,Rapid Declines
+42533783,3_2,,,(Not specified),
+42533783,4_1,,,(Not specified),
+42533943,2_3_2,Ongoing,,Low Impact: 3,
+42533943,2_1_2,Ongoing,,Low Impact: 3,
+49009933,5_3_3,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+49009933,5_2_1,Ongoing,Whole (>90%),High Impact: 9,Very Rapid Declines
+49009933,2_1_4,Ongoing,Unknown,Unknown,Unknown
+50905358,7_3,Ongoing,,Low Impact: 3,
+50905358,7_1_1,Ongoing,,Low Impact: 3,
+50905358,5_2_1,Ongoing,Unknown,Unknown,Unknown
+53817468,2_3_4,Ongoing,Unknown,Unknown,Unknown
+53817468,9_1_3,Ongoing,Unknown,Unknown,Unknown
+53817468,5_4_1,Ongoing,Unknown,Unknown,Unknown
+53817468,5_4_2,Ongoing,Unknown,Unknown,Unknown
+53817468,8_1_1,Ongoing,Unknown,Unknown,Unknown
+53817468,9_2_3,Ongoing,Unknown,Unknown,Unknown
+53817468,11_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+53817563,2_3_4,Ongoing,Whole (>90%),Unknown,Unknown
+53817563,5_4_1,Ongoing,Whole (>90%),Unknown,Unknown
+53817563,5_4_2,Ongoing,Whole (>90%),Unknown,Unknown
+53817563,9_2_3,Ongoing,Whole (>90%),Unknown,Unknown
+53817563,9_1_3,Ongoing,Whole (>90%),Unknown,Unknown
+53817563,8_1_1,Ongoing,Whole (>90%),Unknown,Unknown
+53817563,11_1,Ongoing,Whole (>90%),Unknown,Unknown
+53817768,9_2_3,Ongoing,Unknown,Unknown,Unknown
+53817768,9_1_3,Ongoing,Unknown,Unknown,Unknown
+53817768,5_4_1,Ongoing,Unknown,Unknown,Unknown
+53817768,5_4_2,Ongoing,Unknown,Unknown,Unknown
+53817768,8_1_1,Ongoing,Unknown,Unknown,Unknown
+53817768,11_1,Ongoing,Whole (>90%),Unknown,Unknown
+53817843,2_3_4,Ongoing,Whole (>90%),Unknown,Unknown
+53817843,9_2_3,Ongoing,,Low Impact: 3,
+53817843,9_3_4,Ongoing,,Low Impact: 3,
+53817843,5_4_1,Ongoing,,Low Impact: 3,
+53817843,5_4_2,Ongoing,,Low Impact: 3,
+53817843,8_1_1,Ongoing,,Low Impact: 3,
+53818053,9_2_3,Ongoing,Unknown,Unknown,Unknown
+53818053,2_3_4,Ongoing,Unknown,Unknown,Unknown
+53818053,9_1_3,Ongoing,Unknown,Unknown,Unknown
+53818053,5_4_1,Ongoing,Unknown,Unknown,Unknown
+53818053,5_4_2,Ongoing,Unknown,Unknown,Unknown
+53818053,8_1_1,Ongoing,Unknown,Unknown,Unknown
+53818053,11_1,Ongoing,Whole (>90%),Unknown,Unknown
+53818073,2_3_4,Ongoing,Whole (>90%),Unknown,Unknown
+53818073,9_2_3,Ongoing,,Low Impact: 3,
+53818073,9_3_4,Ongoing,,Low Impact: 3,
+53818073,5_4_1,Ongoing,,Low Impact: 3,
+53818073,5_4_2,Ongoing,,Low Impact: 3,
+53818073,8_1_1,Ongoing,,Low Impact: 3,
+53818268,2_3_4,Ongoing,Unknown,Unknown,Unknown
+53818268,3_2,Ongoing,Unknown,Unknown,Unknown
+53818268,5_4_1,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+53818268,5_4_2,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+53818268,8_1_1,Ongoing,Unknown,Unknown,Unknown
+53818268,9_2_3,Ongoing,Unknown,Unknown,Unknown
+53818268,9_1_3,Ongoing,Unknown,Unknown,Unknown
+53818268,2_4_2,Ongoing,Unknown,Unknown,Unknown
+53818423,2_3_4,Ongoing,Unknown,Unknown,Unknown
+53818423,5_4_1,Ongoing,Unknown,Unknown,Unknown
+53818423,5_4_2,Ongoing,Unknown,Unknown,Unknown
+53818423,8_1_1,Ongoing,Unknown,Unknown,Unknown
+53818423,9_2_3,Ongoing,Unknown,Unknown,Unknown
+53818423,9_1_3,Ongoing,Unknown,Unknown,Unknown
+53818483,5_4_1,Ongoing,Whole (>90%),Unknown,Unknown
+53818483,5_4_2,Ongoing,Whole (>90%),Unknown,Unknown
+53818483,9_2_3,Ongoing,Whole (>90%),Unknown,Unknown
+53818483,8_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+53818483,8_1_1,Ongoing,Whole (>90%),Unknown,Unknown
+53818483,2_3_4,Ongoing,Whole (>90%),Unknown,Unknown
+53818483,9_1_3,Ongoing,Whole (>90%),Unknown,Unknown
+53818598,2_3_4,Ongoing,Unknown,Unknown,Unknown
+53818598,9_2_3,Ongoing,Unknown,Unknown,Unknown
+53818598,9_1_3,Ongoing,Unknown,Unknown,Unknown
+53818598,8_1_1,Ongoing,Unknown,Unknown,Unknown
+53818598,11_1,Ongoing,Whole (>90%),Unknown,Unknown
+53818598,5_4_1,Ongoing,Unknown,Unknown,Unknown
+53818598,5_4_2,Ongoing,Unknown,Unknown,Unknown
+54466837,8_1_2,Ongoing,Whole (>90%),High Impact: 9,Very Rapid Declines
+54466837,8_1_2,"Past, Unlikely to Return",Whole (>90%),Past Impact,Very Rapid Declines
+54466837,7_1_1,"Past, Likely to Return",Minority (<50%),Past Impact,Very Rapid Declines
+54466837,1_1,"Past, Likely to Return",Minority (<50%),Past Impact,Very Rapid Declines
+54466837,8_1_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+56445288,2_3_4,Ongoing,Whole (>90%),Unknown,Unknown
+56445288,3_3,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+56445288,5_2_1,Ongoing,Unknown,Unknown,"Slow, Significant Declines"
+58392370,2_1_1,Ongoing,Unknown,Unknown,Unknown
+58392370,5_3_3,Ongoing,Unknown,Unknown,Unknown
+58603530,9_1_2,Ongoing,Whole (>90%),Unknown,Unknown
+58603530,9_1_1,Ongoing,Whole (>90%),Unknown,Unknown
+58603530,9_3_3,Ongoing,Whole (>90%),Unknown,Unknown
+58603530,7_2_8,Ongoing,Whole (>90%),Unknown,Unknown
+58603530,9_3_1,Ongoing,Whole (>90%),Unknown,Unknown
+58603530,9_4,Ongoing,Minority (<50%),Unknown,Unknown
+58603530,7_2_3,Ongoing,Whole (>90%),Medium Impact: 6,No decline
+58603530,7_2_10,Ongoing,Whole (>90%),High Impact: 9,Very Rapid Declines
+58603530,1_3,Ongoing,Minority (<50%),Unknown,Unknown
+58603530,11_2,Ongoing,Whole (>90%),Unknown,Unknown
+58628756,9_1_1,Unknown,Unknown,Unknown,Unknown
+58628756,11_2,Ongoing,Whole (>90%),Unknown,Unknown
+58628756,7_2_10,Ongoing,Majority (50-90%),Unknown,Unknown
+58628756,9_4,Unknown,Unknown,Unknown,Unknown
+58628756,9_2_1,Ongoing,Minority (<50%),Unknown,Unknown
+58628756,9_3_4,Unknown,Unknown,Unknown,Unknown
+61526910,2_1_3,Ongoing,,Low Impact: 3,
+61526910,2_1_2,Ongoing,,Low Impact: 3,
+61526910,3_2,Ongoing,,Low Impact: 3,
+61526910,1_1,Ongoing,,Low Impact: 3,
+61527210,2_2_2,Ongoing,,Low Impact: 3,
+61527210,1_1,Ongoing,,Low Impact: 3,
+61527210,5_3_5,Ongoing,,Low Impact: 3,
+61527210,2_1_2,Ongoing,,Low Impact: 3,
+61527210,2_1_3,Ongoing,,Low Impact: 3,
+61780186,1_1,Ongoing,,Low Impact: 3,
+61780186,4_1,Ongoing,,Low Impact: 3,
+61780186,1_2,Ongoing,,Low Impact: 3,
+61963525,2_2_1,Ongoing,,Low Impact: 3,
+61963525,2_2_2,Ongoing,,Low Impact: 3,
+61963525,1_1,Ongoing,,Low Impact: 3,
+61963525,4_1,Ongoing,,Low Impact: 3,
+61963525,1_3,Ongoing,,Low Impact: 3,
+61963525,2_1_2,Ongoing,,Low Impact: 3,
+61963525,2_1_3,Ongoing,,Low Impact: 3,
+61985350,5_2_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+61985350,8_2_1,Ongoing,Minority (<50%),Unknown,Unknown
+61985350,11_1,Ongoing,Unknown,Unknown,Unknown
+61985350,11_3,Ongoing,Unknown,Unknown,Unknown
+61985350,2_3_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+61985350,2_3_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+61985350,5_3_3,Ongoing,Unknown,Unknown,Unknown
+61988288,2_2_1,Ongoing,,Low Impact: 3,
+61988288,2_2_2,Ongoing,,Low Impact: 3,
+61988288,1_1,Ongoing,,Low Impact: 3,
+61988288,4_1,Ongoing,,Low Impact: 3,
+61988288,1_3,Ongoing,,Low Impact: 3,
+61988288,2_1_2,Ongoing,,Low Impact: 3,
+61988288,2_1_3,Ongoing,,Low Impact: 3,
+62028403,5_3_2,Ongoing,,Low Impact: 3,
+62028403,5_3_4,Ongoing,,Low Impact: 3,
+63285684,7_1_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+63285684,2_1_4,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+63285684,5_3_5,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+63285684,8_1_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+63285684,8_1_2,Ongoing,,Low Impact: 3,
+64116486,1_1,Ongoing,,Low Impact: 3,
+64116486,5_3_3,Ongoing,,Low Impact: 3,
+64116486,2_1_1,Ongoing,,Low Impact: 3,
+64116486,2_1_3,Ongoing,,Low Impact: 3,
+67533770,2_3_4,Ongoing,,Low Impact: 3,
+67533770,2_1_4,Ongoing,,Low Impact: 3,
+67533770,1_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+67533770,5_3_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+67556131,5_3_1,Ongoing,Whole (>90%),High Impact: 9,Very Rapid Declines
+67694324,11_2,Ongoing,,Low Impact: 3,
+67694324,1_1,Ongoing,,Low Impact: 3,
+67694324,5_1_1,Ongoing,,Low Impact: 3,
+67743532,2_2_1,Ongoing,,Low Impact: 3,
+67743532,2_2_2,Ongoing,,Low Impact: 3,
+67743532,2_3_2,Ongoing,,Low Impact: 3,
+67743532,2_3_3,Ongoing,,Low Impact: 3,
+67743532,1_1,Ongoing,,Low Impact: 3,
+67743532,4_1,Ongoing,,Low Impact: 3,
+67743532,5_3_2,Ongoing,,Low Impact: 3,
+67743532,5_3_4,Ongoing,,Low Impact: 3,
+67743532,2_1_3,Ongoing,,Low Impact: 3,
+67743532,7_1_1,Ongoing,,Low Impact: 3,
+67743532,2_1_2,Ongoing,,Low Impact: 3,
+67743532,2_1_1,Ongoing,,Low Impact: 3,
+67745306,11_1,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+67745306,8_4_2,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+67745306,8_4_1,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+67745306,8_1_2,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+67747954,7_1_1,Ongoing,Whole (>90%),Medium Impact: 7,"Slow, Significant Declines"
+67747954,11_1,Future,Whole (>90%),Low Impact: 5,"Slow, Significant Declines"
+67747954,3_2,Future,Minority (<50%),Low Impact: 4,Rapid Declines
+67750053,4_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+67750053,3_2,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+67750053,7_1_1,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+67750634,7_1_1,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+67750634,5_3_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+67752415,6_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+67752415,7_1_1,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+67752415,3_3,Future,Minority (<50%),Low Impact: 4,Rapid Declines
+67752708,7_1_1,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+67752708,5_3_1,"Past, Unlikely to Return",Majority (50-90%),Past Impact,"Slow, Significant Declines"
+67752708,3_2,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+67752708,7_2_10,"Past, Unlikely to Return",Minority (<50%),Past Impact,Very Rapid Declines
+67755042,7_1_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+67755042,1_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+67755042,7_2_6,Ongoing,Whole (>90%),Medium Impact: 7,"Slow, Significant Declines"
+67755042,6_1,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+67755042,7_2_2,Ongoing,Whole (>90%),Medium Impact: 7,"Slow, Significant Declines"
+67755042,7_2_9,Ongoing,Whole (>90%),Medium Impact: 7,"Slow, Significant Declines"
+67755042,3_2,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+69240604,2_3_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+69240604,7_1_1,Ongoing,Minority (<50%),Medium Impact: 7,Very Rapid Declines
+69240604,5_3_3,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+69240604,2_1_2,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+70114754,2_3_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+70114754,5_3_3,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+70114754,2_1_2,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+70114754,7_1_1,Ongoing,Minority (<50%),Medium Impact: 7,Very Rapid Declines
+70155271,3_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+70155271,5_3_3,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+70155271,2_1_1,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+70155271,2_1_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+74848112,9_3_3,Ongoing,,Low Impact: 3,
+74848112,7_1_3,Ongoing,,Low Impact: 3,
+74848112,2_1_4,Ongoing,,Low Impact: 3,
+74848112,11_1,Ongoing,,Low Impact: 3,
+74848112,11_3,Ongoing,,Low Impact: 3,
+74848112,2_3_4,Ongoing,,Low Impact: 3,
+74848112,5_3_3,Ongoing,,Low Impact: 3,
+80702992,9_2_2,Ongoing,,Low Impact: 3,
+80702992,9_2_1,Ongoing,,Low Impact: 3,
+80702992,9_3_2,Ongoing,,Low Impact: 3,
+80702992,11_1,Ongoing,,Low Impact: 3,
+80702992,5_3_4,Ongoing,,Low Impact: 3,
+80702992,1_1,Ongoing,,Low Impact: 3,
+80702992,3_1,Ongoing,,Low Impact: 3,
+80702992,5_3_3,Ongoing,,Low Impact: 3,
+80702992,3_2,Ongoing,,Low Impact: 3,
+80702992,3_3,Ongoing,,Low Impact: 3,
+80702992,9_1_2,Ongoing,,Low Impact: 3,
+80702992,4_1,Ongoing,,Low Impact: 3,
+80702992,7_2_8,Ongoing,,Low Impact: 3,
+80702992,1_3,Ongoing,,Low Impact: 3,
+80702992,7_2_4,Ongoing,,Low Impact: 3,
+80702992,8_1_1,Ongoing,,Low Impact: 3,
+80702992,1_2,Ongoing,,Low Impact: 3,
+80702992,4_2,Ongoing,,Low Impact: 3,
+80702992,9_1_1,Ongoing,,Low Impact: 3,
+80702992,6_1,Ongoing,,Low Impact: 3,
+84547931,3_2,Unknown,Unknown,Unknown,Unknown
+84548168,5_3_5,Ongoing,,Low Impact: 3,
+84548168,7_1_1,Ongoing,,Low Impact: 3,
+84548168,2_1_4,Ongoing,,Low Impact: 3,
+84548311,2_1_2,Ongoing,,Low Impact: 3,
+84548311,7_1_1,Ongoing,,Low Impact: 3,
+84548311,5_3_5,Ongoing,,Low Impact: 3,
+84549893,2_1_4,Ongoing,,Low Impact: 3,
+84549893,5_3_5,Ongoing,,Low Impact: 3,
+84549893,8_4_2,Ongoing,,Low Impact: 3,
+84549893,7_1_1,Ongoing,,Low Impact: 3,
+84549934,2_2_3,Ongoing,,Low Impact: 3,
+84549934,2_1_2,Ongoing,,Low Impact: 3,
+84549934,2_1_3,Ongoing,,Low Impact: 3,
+84550614,2_1_4,Ongoing,,Low Impact: 3,
+84550614,1_1,Ongoing,,Low Impact: 3,
+84550614,1_3,Ongoing,,Low Impact: 3,
+87542256,1_2,Ongoing,Whole (>90%),Unknown,Unknown
+87542256,1_1,Ongoing,Whole (>90%),Unknown,Unknown
+87542256,9_1_2,Ongoing,Whole (>90%),Unknown,Unknown
+87542256,9_2_1,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+87712029,2_1_2,Ongoing,,Low Impact: 3,
+87712029,1_1,Ongoing,,Low Impact: 3,
+87712029,2_2_3,Ongoing,,Low Impact: 3,
+87712029,2_2_2,Ongoing,,Low Impact: 3,
+87712029,4_1,Ongoing,,Low Impact: 3,
+87712029,2_1_3,Ongoing,,Low Impact: 3,
+87758189,3_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+87758189,5_3_4,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+88800534,1_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+91863646,1_1,Ongoing,Minority (<50%),Low Impact: 4,Negligible declines
+91863646,2_1_4,Ongoing,Majority (50-90%),Low Impact: 5,Negligible declines
+91863646,6_2,Ongoing,Minority (<50%),Unknown,Unknown
+91863646,5_1_3,Ongoing,Whole (>90%),Medium Impact: 7,Causing/Could cause fluctuations
+95518099,7_2_11,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,9_1_2,Ongoing,,Low Impact: 3,
+95518099,9_2_3,Ongoing,,Low Impact: 3,
+95518099,9_3_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,9_3_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,9_3_3,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,11_4,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,2_2_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+95518099,2_1_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,7_2_7,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,8_1_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,11_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,7_2_5,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,9_1_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,11_2,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+95518099,7_3,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95518099,7_2_3,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,7_2_10,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95518099,2_1_3,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95518099,11_3,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+95518099,1_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+95518099,1_3,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+95518099,7_2_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95518099,8_1_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+95518099,8_1_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95518099,8_1_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95538047,9_1_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+95538047,9_3_3,Ongoing,Minority (<50%),Low Impact: 5,Causing/Could cause fluctuations
+95538047,9_2_3,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+95538047,7_2_1,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+95538047,7_2_3,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+95538047,7_2_7,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95538047,7_2_10,Ongoing,Minority (<50%),Medium Impact: 7,Very Rapid Declines
+95538047,11_2,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+95538047,11_3,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+95538047,11_4,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95538047,2_1_1,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+95538047,2_1_3,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+95538047,3_2,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+95539941,1_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95539941,7_2_10,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95539941,9_1_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95539941,2_1_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+95539941,11_2,Future,Majority (50-90%),Medium Impact: 6,Very Rapid Declines
+95539941,7_2_3,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+95539941,9_2_3,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+99514217,7_1_1,Ongoing,,Low Impact: 3,
+99514217,2_1_2,Ongoing,,Low Impact: 3,
+99514345,2_2_2,Ongoing,,Low Impact: 3,
+99514345,2_3_2,Ongoing,,Low Impact: 3,
+99514345,1_1,Ongoing,,Low Impact: 3,
+99514345,5_3_5,Ongoing,,Low Impact: 3,
+99514345,7_1_1,Ongoing,,Low Impact: 3,
+99514345,2_1_2,Ongoing,,Low Impact: 3,
+99514379,2_2_2,Ongoing,,Low Impact: 3,
+99514379,1_1,Ongoing,,Low Impact: 3,
+99514379,7_1_1,Ongoing,,Low Impact: 3,
+99514379,2_1_2,Ongoing,,Low Impact: 3,
+99514473,1_1,Ongoing,,Low Impact: 3,
+99514473,4_1,Ongoing,,Low Impact: 3,
+99514473,5_3_3,Ongoing,,Low Impact: 3,
+99514473,7_1_1,Ongoing,,Low Impact: 3,
+99514473,2_1_2,Ongoing,,Low Impact: 3,
+99514473,8_1_1,Ongoing,,Low Impact: 3,
+99516043,11_4,Ongoing,,Low Impact: 3,
+99516075,2_2_2,Ongoing,,Low Impact: 3,
+99516075,1_1,Ongoing,,Low Impact: 3,
+99516075,5_3_5,Ongoing,,Low Impact: 3,
+99516075,7_1_1,Ongoing,,Low Impact: 3,
+99516107,2_2_2,Ongoing,,Low Impact: 3,
+99516107,1_1,Ongoing,,Low Impact: 3,
+99516107,5_3_5,Ongoing,,Low Impact: 3,
+99516107,7_1_1,Ongoing,,Low Impact: 3,
+99516107,2_1_2,Ongoing,,Low Impact: 3,
+99517236,2_2_2,Ongoing,,Low Impact: 3,
+99517236,2_3_2,Ongoing,,Low Impact: 3,
+99517236,1_1,Ongoing,,Low Impact: 3,
+99517236,7_1_1,Ongoing,,Low Impact: 3,
+99517236,8_2_1,Ongoing,,Low Impact: 3,
+99517236,5_3_3,Ongoing,,Low Impact: 3,
+99517375,10_3,Ongoing,,Low Impact: 3,
+99517375,7_1_1,Ongoing,,Low Impact: 3,
+99517545,1_1,Ongoing,,Low Impact: 3,
+99517545,3_2,Ongoing,,Low Impact: 3,
+99517545,4_1,Ongoing,,Low Impact: 3,
+99517545,5_2_2,Ongoing,,Low Impact: 3,
+99517545,5_3_5,Ongoing,,Low Impact: 3,
+99517545,5_4_3,Ongoing,,Low Impact: 3,
+100439972,3_2,Future,Majority (50-90%),Medium Impact: 6,Very Rapid Declines
+102827421,2_1_4,Ongoing,,Low Impact: 3,
+102827421,1_1,Ongoing,,Low Impact: 3,
+102827421,1_2,Ongoing,,Low Impact: 3,
+102827421,1_3,Ongoing,,Low Impact: 3,
+102827421,5_3_5,Ongoing,,Low Impact: 3,
+102827421,6_3,Ongoing,,Low Impact: 3,
+102827421,2_1_1,Ongoing,,Low Impact: 3,
+102930327,2_3_4,Ongoing,,Low Impact: 3,
+102930327,8_1_1,Future,,No/Negligible Impact: 1,
+102930327,9_4,Ongoing,,Low Impact: 3,
+102936716,2_3_2,"Past, Unlikely to Return",Minority (<50%),Past Impact,Negligible declines
+102936716,10_3,Ongoing,Unknown,Unknown,Unknown
+102936716,6_1,Ongoing,Minority (<50%),Low Impact: 4,Negligible declines
+103162163,8_1_2,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+103162163,2_1_4,"Past, Likely to Return",Majority (50-90%),Past Impact,"Slow, Significant Declines"
+103165380,8_1_2,Future,Whole (>90%),Medium Impact: 7,Very Rapid Declines
+103165380,8_1_2,Future,Whole (>90%),Medium Impact: 7,Very Rapid Declines
+103165380,8_1_1,Ongoing,Unknown,Unknown,"Slow, Significant Declines"
+110089052,2_2_1,Ongoing,,Low Impact: 3,
+110089052,2_2_2,Ongoing,,Low Impact: 3,
+110089052,1_1,Ongoing,,Low Impact: 3,
+110089052,1_2,Ongoing,,Low Impact: 3,
+110089052,5_3_4,Ongoing,,Low Impact: 3,
+110089052,2_1_2,Ongoing,,Low Impact: 3,
+110089052,2_1_3,Ongoing,,Low Impact: 3,
+110517562,11_3,Ongoing,,Low Impact: 3,
+110517562,8_1_1,Ongoing,,Low Impact: 3,
+110517562,8_2_1,Ongoing,,Low Impact: 3,
+110517562,1_3,Ongoing,,Low Impact: 3,
+110517562,1_2,Ongoing,,Low Impact: 3,
+110517562,1_1,Ongoing,,Low Impact: 3,
+110517562,9_2_3,Ongoing,,Low Impact: 3,
+110517562,9_3_2,Ongoing,,Low Impact: 3,
+110517562,9_3_4,Ongoing,,Low Impact: 3,
+110517562,9_5_3,Ongoing,,Low Impact: 3,
+110517562,11_4,Ongoing,,Low Impact: 3,
+110517562,4_3,Ongoing,,Low Impact: 3,
+110517562,9_1_3,Ongoing,,Low Impact: 3,
+110517562,8_2_2,Ongoing,,Low Impact: 3,
+110517562,6_1,Ongoing,,Low Impact: 3,
+113049367,7_1_1,Ongoing,Whole (>90%),Unknown,Unknown
+113049367,1_3,Ongoing,Unknown,Unknown,Unknown
+113049367,2_3_2,Ongoing,Unknown,Unknown,Unknown
+113049367,3_2,Ongoing,Unknown,Unknown,Unknown
+113049367,5_3_3,Ongoing,Minority (<50%),Unknown,Unknown
+115603884,8_1_1,Ongoing,Unknown,Unknown,Unknown
+115603884,1_1,Ongoing,Unknown,Unknown,Unknown
+116123873,5_3_5,Ongoing,,Low Impact: 3,
+116123873,2_1_1,Ongoing,Whole (>90%),High Impact: 9,Very Rapid Declines
+116123873,2_2_2,Ongoing,Unknown,Unknown,
+116123873,1_1,Ongoing,Unknown,Unknown,
+116928584,5_3_1,Ongoing,Unknown,Unknown,Unknown
+116928584,5_3_2,Ongoing,Unknown,Unknown,Unknown
+116928584,5_3_3,Ongoing,,Low Impact: 3,
+116928584,5_3_4,Ongoing,,Low Impact: 3,
+116928584,2_1_3,Ongoing,,Low Impact: 3,
+117408779,1_1,Ongoing,,Low Impact: 3,
+117408779,5_3_5,Ongoing,,Low Impact: 3,
+117408779,2_1_4,Ongoing,,Low Impact: 3,
+117409013,2_2_1,Ongoing,,Low Impact: 3,
+117409013,2_2_2,Ongoing,,Low Impact: 3,
+117409013,2_1_2,Ongoing,,Low Impact: 3,
+117409013,2_1_3,Ongoing,,Low Impact: 3,
+117645817,1_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+117645817,1_3,Ongoing,Minority (<50%),Low Impact: 5,Causing/Could cause fluctuations
+117645817,2_2_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+117645817,7_1_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+117894247,5_3_4,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+117894247,5_2_1,Ongoing,,Low Impact: 3,
+117894247,2_2_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+117894247,7_2_10,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+119048739,8_1_2,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+119132078,4_2,Ongoing,Minority (<50%),Low Impact: 5,Causing/Could cause fluctuations
+119132078,1_3,Ongoing,Minority (<50%),Unknown,Unknown
+119132078,8_1_2,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+119132078,8_1_2,Ongoing,Minority (<50%),Medium Impact: 7,Very Rapid Declines
+119136137,8_1_2,Ongoing,Majority (50-90%),High Impact: 8,Very Rapid Declines
+119136137,8_1_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+119136432,7_1_3,Unknown,Unknown,Unknown,Unknown
+119136432,8_1_2,Ongoing,Whole (>90%),High Impact: 8,Rapid Declines
+119136432,8_1_2,Ongoing,Minority (<50%),Low Impact: 5,Causing/Could cause fluctuations
+119136772,8_1_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+119136772,8_1_2,Ongoing,Majority (50-90%),Medium Impact: 6,Causing/Could cause fluctuations
+119167048,5_4_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+119167048,5_4_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+119167048,11_3,Ongoing,Minority (<50%),Low Impact: 5,Causing/Could cause fluctuations
+119167307,2_4_3,Ongoing,Unknown,Unknown,Rapid Declines
+119167307,5_4_2,Ongoing,Unknown,Unknown,Rapid Declines
+119167307,5_4_1,Ongoing,Unknown,Unknown,Rapid Declines
+119167307,11_3,Ongoing,Whole (>90%),Medium Impact: 7,"Slow, Significant Declines"
+119173390,5_4_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+119173390,5_4_2,Ongoing,Whole (>90%),High Impact: 9,Very Rapid Declines
+119863804,5_3_5,Ongoing,Unknown,Unknown,Rapid Declines
+119863804,3_2,Ongoing,Unknown,Unknown,Unknown
+119863804,5_3_1,Ongoing,Unknown,Unknown,Unknown
+119875299,11_4,Future,Majority (50-90%),Low Impact: 4,"Slow, Significant Declines"
+119875299,11_2,Future,Majority (50-90%),Low Impact: 4,"Slow, Significant Declines"
+119875299,7_1_1,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+119875299,7_2_10,"Past, Unlikely to Return",Minority (<50%),Past Impact,Rapid Declines
+119875299,3_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+119875299,4_1,Ongoing,Minority (<50%),Low Impact: 5,"Slow, Significant Declines"
+119875560,7_1_1,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+119875560,3_2,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+122659197,1_1,Ongoing,Unknown,Unknown,Unknown
+122659197,2_1_2,Ongoing,Unknown,Unknown,"Slow, Significant Declines"
+122659197,11_4,Ongoing,Unknown,Unknown,Unknown
+122659197,7_1_1,Ongoing,Minority (<50%),Unknown,Unknown
+122659197,2_2_1,Ongoing,Minority (<50%),Unknown,Unknown
+122659197,5_3_3,Ongoing,Unknown,Unknown,Unknown
+122659202,3_2,Ongoing,Majority (50-90%),Unknown,Unknown
+122659202,1_1,Ongoing,Unknown,Unknown,Unknown
+122659212,1_1,Ongoing,Unknown,Unknown,
+122659212,2_2_2,Ongoing,Majority (50-90%),Unknown,Unknown
+122659212,5_3_4,Ongoing,,Low Impact: 3,
+122659212,4_1,Ongoing,Unknown,Unknown,Unknown
+122659432,2_3_2,Ongoing,,Low Impact: 3,
+122659432,2_1_2,Ongoing,,Low Impact: 3,
+122659582,2_3_2,Ongoing,,Low Impact: 3,
+122659582,2_1_2,Ongoing,,Low Impact: 3,
+124411670,5_4_4,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+124411670,5_4_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+124411670,5_4_3,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+124411670,5_4_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+124411670,11_3,Ongoing,Unknown,Unknown,Unknown
+124411670,11_1,Ongoing,Unknown,Unknown,Unknown
+124411670,1_1,Ongoing,Minority (<50%),Unknown,Unknown
+124411670,1_2,Ongoing,Minority (<50%),Unknown,Unknown
+124424011,5_4_1,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+124424011,5_4_2,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+124424011,5_4_3,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+124424011,5_4_4,Ongoing,Majority (50-90%),Medium Impact: 6,"Slow, Significant Declines"
+124424595,5_4_1,Ongoing,Minority (<50%),Medium Impact: 6,Rapid Declines
+124424595,5_4_4,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
+124424595,5_4_3,Ongoing,Majority (50-90%),Medium Impact: 7,Rapid Declines
