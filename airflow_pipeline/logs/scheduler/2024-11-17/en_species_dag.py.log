@@ -1043,3 +1043,17 @@
 [2024-11-17T19:47:32.805+0000] {logging_mixin.py:190} INFO - [2024-11-17T19:47:32.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-17T19:47:32.814+0000] {logging_mixin.py:190} INFO - [2024-11-17T19:47:32.814+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
 [2024-11-17T19:47:32.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.261 seconds
+[2024-11-17T19:48:03.182+0000] {processor.py:186} INFO - Started process (PID=622) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-17T19:48:03.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-17T19:48:03.185+0000] {logging_mixin.py:190} INFO - [2024-11-17T19:48:03.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-17T19:48:03.389+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-17T19:48:03.400+0000] {logging_mixin.py:190} INFO - [2024-11-17T19:48:03.399+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T19:48:03.410+0000] {logging_mixin.py:190} INFO - [2024-11-17T19:48:03.409+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-17T19:48:03.416+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.241 seconds
+[2024-11-17T19:48:33.743+0000] {processor.py:186} INFO - Started process (PID=631) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-17T19:48:33.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-17T19:48:33.746+0000] {logging_mixin.py:190} INFO - [2024-11-17T19:48:33.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-17T19:48:33.939+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-17T19:48:33.950+0000] {logging_mixin.py:190} INFO - [2024-11-17T19:48:33.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T19:48:33.959+0000] {logging_mixin.py:190} INFO - [2024-11-17T19:48:33.959+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-17T19:48:33.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.229 seconds

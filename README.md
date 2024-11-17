@@ -12,7 +12,7 @@ The aim is to create a dashboard that:
 - [x] Create database (PostgreSQL with PostGIS or NoSQL)
 - [x] Deploy database
 - [x] Connect Airflow process to database
-- [ ] Write ETL process to load cleaned data into database
+- [x] Write ETL process to load cleaned data into database
 
 4. Data analysis
 - [ ] State hypothesis 

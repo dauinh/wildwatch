@@ -8886,3 +8886,24 @@ File Path                                     PID  Runtime      # DAGs    # Erro
 /opt/airflow/dags/sample_dag.py               614  0.01s             1           0  0.23s           2024-11-17T19:47:07                      12
 /opt/airflow/dags/sample_aws_connection.py                           1           0  0.12s           2024-11-17T19:47:08                      12
 ================================================================================
+[2024-11-17T19:48:08.260+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/en_species_dag.py                                  1           0  0.26s           2024-11-17T19:48:03                      12
+/opt/airflow/dags/sample_dag.py               623  0.01s             1           0  0.21s           2024-11-17T19:47:37                      12
+/opt/airflow/dags/sample_aws_connection.py                           1           0  0.12s           2024-11-17T19:47:39                      12
+================================================================================
+[2024-11-17T19:48:38.831+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/en_species_dag.py                                  1           0  0.24s           2024-11-17T19:48:33                      12
+/opt/airflow/dags/sample_dag.py               632  0.00s             1           0  0.21s           2024-11-17T19:48:08                      12
+/opt/airflow/dags/sample_aws_connection.py                           1           0  0.13s           2024-11-17T19:48:09                      12
+================================================================================
+[2024-11-17T19:48:59.273+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
