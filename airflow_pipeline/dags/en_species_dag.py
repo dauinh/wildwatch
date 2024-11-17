@@ -9,9 +9,9 @@ import ast
 import airflow
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.models import Variable
+from airflow.hooks.S3_hook import S3Hook
 
-from scripts.extract_en_species import main
+from scripts import extract_en_species
 
 
 with DAG(
@@ -26,7 +26,7 @@ with DAG(
     extract_data = PythonOperator(
         dag=dag,
         task_id='extract_data',
-        python_callable=main,
+        python_callable=extract_en_species.main,
     )
 
     def transform():
@@ -58,5 +58,20 @@ with DAG(
         python_callable=transform,
     )
 
+    def load():
+        hook = S3Hook('s3_conn')
+        bucket_name = 'wildwatchstorage'
+        hook.load_file(filename='/opt/airflow/processed_data/main.csv', key='main.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/habitats.csv', key='habitats.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/locations.csv', key='locations.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/conservation_actions.csv', key='conservation_actions.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/threats.csv', key='threats.csv', bucket_name=bucket_name, replace=True)
+
+    load_data = PythonOperator(
+        dag=dag,
+        task_id='load_data_to_s3',
+        python_callable=load
+    )
+
     # Set dependencies between tasks
-    extract_data >> transform_data
+    extract_data >> transform_data >> load_data

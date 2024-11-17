@@ -74,6 +74,8 @@ x-airflow-common:
     # AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
     AIRFLOW_VAR_IUCN_API: ${IUCN_API}
     AIRFLOW_VAR_PROJ_DIR: ${AIRFLOW_PROJ_DIR}
+    AIRFLOW_VAR_AWS_ACCESS_KEY: ${AWS_ACCESS_KEY}
+    AIRFLOW_VAR_AWS_SECRET: ${AWS_SECRET}
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
@@ -91,7 +93,7 @@ x-airflow-common:
 
 services:
   postgres:
-    image: postgres:13
+    image: postgres:latest
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
