@@ -8,12 +8,10 @@ The aim is to create a dashboard that:
 
 ## TODO
 
-2. Data processing
-- [x] Use `pandas` for cleaning and transformation
-- [x] Use Airflow to create tasks (collect -> clean -> save)
-
 3. Database
-- [ ] Choose database (PostgreSQL with PostGIS or NoSQL)
+- [ ] Create database (PostgreSQL with PostGIS or NoSQL)
+- [ ] Deploy database
+- [ ] Connect Airflow process to database
 - [ ] Write ETL process to load cleaned data into database
 
 4. Data analysis
