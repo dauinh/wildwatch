@@ -9,7 +9,6 @@ import ast
 import airflow
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.models import Variable
 
 from scripts.extract_en_species import main
 
