@@ -9,9 +9,9 @@ The aim is to create a dashboard that:
 ## TODO
 
 3. Database
-- [ ] Create database (PostgreSQL with PostGIS or NoSQL)
-- [ ] Deploy database
-- [ ] Connect Airflow process to database
+- [x] Create database (PostgreSQL with PostGIS or NoSQL)
+- [x] Deploy database
+- [x] Connect Airflow process to database
 - [ ] Write ETL process to load cleaned data into database
 
 4. Data analysis
