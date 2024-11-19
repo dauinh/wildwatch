@@ -78,7 +78,34 @@ def transform_assess(id, data):
     ]
 
 
-def main():
+def get_code_description(name):
+    try:
+        r = requests.get(
+            f"{DOMAIN}/{name}",
+            headers=HEADERS,
+        )
+        return r.json()
+    except requests.exceptions.HTTPError as e:
+        raise SystemExit(e)
+
+
+def extract_code_description(name):
+    with open(Path(DATA_DIR / f'{name}.csv'), 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['code', 'description'])
+
+        for row in get_code_description(name)[name]:
+            writer.writerow([row['code'], row['description']['en']])
+
+
+def code_description_main():
+    extract_code_description('conservation_actions')
+    extract_code_description('habitats')
+    extract_code_description('locations')
+    extract_code_description('threats')
+
+
+def en_species_main():
     total_count, total_pages = get_metatdata_en_species()
     with open(Path(DATA_DIR / 'EN.csv'), 'w', newline='') as f:
         writer = csv.writer(f)
@@ -98,7 +125,3 @@ def main():
                     print(e)
                     print(f'Assessment {id} download unsuccessful!')
             print(f'Page {page} data downloaded!')
-
-
-if __name__ == "__main__":
-    main()

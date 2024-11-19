@@ -3,16 +3,10 @@
 The aim is to create a dashboard that:
 
 1. Monitors endangered species populations over time.
-2. Tracks species sightings or conservation status changes.
-3. Provides visual insights into trends and factors affecting their survival, focusing on specific animals like penguins, crabs, or other endangered species.
+2. Tracks species conservation status changes.
+3. Provides visual insights into trends and factors affecting their survival, focusing on endangered species.
 
 ## TODO
-
-3. Database
-- [x] Create database (PostgreSQL with PostGIS or NoSQL)
-- [x] Deploy database
-- [x] Connect Airflow process to database
-- [x] Write ETL process to load cleaned data into database
 
 4. Data analysis
 - [ ] State hypothesis 

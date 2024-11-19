@@ -1,0 +1,43 @@
+code,description
+1,Land/water protection
+1_1,Site/area protection
+1_2,Resource & habitat protection
+2,Land/water management
+2_1,Site/area management
+2_2,Invasive/problematic species control
+2_3,Habitat & natural process restoration
+3,Species management
+3_1,Species management
+3_1_1,Harvest management
+3_1_2,Trade management
+3_1_3,Limiting population growth
+3_2,Species recovery
+3_3,Species re-introduction
+3_3_1,Reintroduction
+3_3_2,Benign introduction
+3_4,Ex-situ conservation
+3_4_1,Captive breeding/artificial propagation
+3_4_2,Genome resource bank
+4,Education & awareness
+4_1,Formal education
+4_2,Training
+4_3,Awareness & communications
+5,Law & policy
+5_1,Legislation
+5_1_1,International level
+5_1_2,National level
+5_1_3,Sub-national level
+5_1_4,Scale unspecified
+5_2,Policies and regulations
+5_3,Private sector standards & codes
+5_4,Compliance and enforcement
+5_4_1,International level
+5_4_2,National level
+5_4_3,Sub-national level
+5_4_4,Scale unspecified
+6,"Livelihood, economic & other incentives"
+6_1,Linked enterprises & livelihood alternatives
+6_2,Substitution
+6_3,Market forces
+6_4,Conservation payments
+6_5,Non-monetary values

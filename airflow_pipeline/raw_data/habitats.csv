@@ -1,0 +1,127 @@
+code,description
+1,Forest
+1_1,Forest - Boreal
+1_2,Forest - Subarctic
+1_3,Forest - Subantarctic
+1_4,Forest - Temperate
+1_5,Forest - Subtropical/Tropical Dry
+1_6,Forest - Subtropical/Tropical Moist Lowland
+1_7,Forest - Subtropical/Tropical Mangrove Vegetation Above High Tide Level
+1_8,Forest - Subtropical/Tropical Swamp
+1_9,Forest - Subtropical/Tropical Moist Montane
+2,Savanna
+2_1,Savanna - Dry
+2_2,Savanna - Moist
+3,Shrubland
+3_1,Shrubland - Subarctic
+3_2,Shrubland - Subantarctic
+3_3,Shrubland - Boreal
+3_4,Shrubland - Temperate
+3_5,Shrubland - Subtropical/Tropical Dry
+3_6,Shrubland - Subtropical/Tropical Moist
+3_7,Shrubland - Subtropical/Tropical High Altitude
+3_8,Shrubland - Mediterranean-type Shrubby Vegetation
+4,Grassland
+4_1,Grassland - Tundra
+4_2,Grassland - Subarctic
+4_3,Grassland - Subantarctic
+4_4,Grassland - Temperate
+4_5,Grassland - Subtropical/Tropical Dry
+4_6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded
+4_7,Grassland - Subtropical/Tropical High Altitude
+5,Wetlands (inland)
+5_1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls)
+5_2,Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks
+5_3,Wetlands (inland) - Shrub Dominated Wetlands
+5_4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands"
+5_5,Wetlands (inland) - Permanent Freshwater Lakes (over 8ha)
+5_6,Wetlands (inland) - Seasonal/Intermittent Freshwater Lakes (over 8ha)
+5_7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha)
+5_8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha)
+5_9,Wetlands (inland) - Freshwater Springs and Oases
+5_10,Wetlands (inland) - Tundra Wetlands (incl. pools and temporary waters from snowmelt)
+5_11,Wetlands (inland) - Alpine Wetlands (includes temporary waters from snowmelt)
+5_12,Wetlands (inland) - Geothermal Wetlands
+5_13,Wetlands (inland) - Permanent Inland Deltas
+5_14,"Wetlands (inland) - Permanent Saline, Brackish or Alkaline Lakes"
+5_15,"Wetlands (inland) - Seasonal/Intermittent Saline, Brackish or Alkaline Lakes and Flats"
+5_16,"Wetlands (inland) - Permanent Saline, Brackish or Alkaline Marshes/Pools"
+5_17,"Wetlands (inland) - Seasonal/Intermittent Saline, Brackish or Alkaline Marshes/Pools"
+5_18,Wetlands (inland) - Karst and Other Subterranean Hydrological Systems (inland)
+6,"Rocky areas (eg. inland cliffs, mountain peaks)"
+7,Caves and Subterranean Habitats (non-aquatic)
+7_1,Caves and Subterranean Habitats (non-aquatic) - Caves
+7_2,Caves and Subterranean Habitats (non-aquatic) - Other Subterranean Habitats
+8,Desert
+8_1,Desert - Hot
+8_2,Desert - Temperate
+8_3,Desert - Cold
+9,Marine Neritic
+9_1,Marine Neritic - Pelagic
+9_2,Marine Neritic - Subtidal Rock and Rocky Reefs
+9_3,Marine Neritic - Subtidal Loose Rock/pebble/gravel
+9_4,Marine Neritic - Subtidal Sandy
+9_5,Marine Neritic - Subtidal Sandy-Mud
+9_6,Marine Neritic - Subtidal Muddy
+9_7,Marine Neritic - Macroalgal/Kelp
+9_8,Marine Neritic - Coral Reef
+9_8_1,Outer Reef Channel
+9_8_2,Back Slope
+9_8_3,Foreslope (Outer Reef Slope)
+9_8_4,Lagoon
+9_8_5,Inter-Reef Soft Substrate
+9_8_6,Inter-Reef Rubble Substrate
+9_9,Marine Neritic - Seagrass (Submerged)
+9_10,Marine Neritic - Estuaries
+10,Marine Oceanic
+10_1,Marine Oceanic - Epipelagic (0-200m)
+10_2,Marine Oceanic - Mesopelagic (200-1000m)
+10_3,Marine Oceanic - Bathypelagic (1000-4000m)
+10_4,Marine Oceanic - Abyssopelagic (4000-6000m)
+11,Marine Deep Benthic
+11_1,"Marine Deep Benthic - Continental Slope/Bathyl Zone (200-4,000m)"
+11_1_1,Hard Substrate
+11_1_2,Soft Substrate
+11_2,"Marine Deep Benthic - Abyssal Plain (4,000-6,000m)"
+11_3,"Marine Deep Benthic - Abyssal Mountain/Hills (4,000-6,000m)"
+11_4,"Marine Deep Benthic - Hadal/Deep Sea Trench (>6,000m)"
+11_5,Marine Deep Benthic - Seamount
+11_6,Marine Deep Benthic - Deep Sea Vents (Rifts/Seeps)
+12,Marine Intertidal
+12_1,Marine Intertidal - Rocky Shoreline
+12_2,"Marine Intertidal - Sandy Shoreline and/or Beaches, Sand Bars, Spits, Etc"
+12_3,Marine Intertidal - Shingle and/or Pebble Shoreline and/or Beaches
+12_4,Marine Intertidal - Mud Flats and Salt Flats
+12_5,Marine Intertidal - Salt Marshes (Emergent Grasses)
+12_6,Marine Intertidal - Tidepools
+12_7,Marine Intertidal - Mangrove Submerged Roots
+13,Marine Coastal/Supratidal
+13_1,Marine Coastal/Supratidal - Sea Cliffs and Rocky Offshore Islands
+13_2,Marine Coastal/supratidal - Coastal Caves/Karst
+13_3,Marine Coastal/Supratidal - Coastal Sand Dunes
+13_4,Marine Coastal/Supratidal - Coastal Brackish/Saline Lagoons/Marine Lakes
+13_5,Marine Coastal/Supratidal - Coastal Freshwater Lakes
+14,Artificial/Terrestrial
+14_1,Artificial/Terrestrial - Arable Land
+14_2,Artificial/Terrestrial - Pastureland
+14_3,Artificial/Terrestrial - Plantations
+14_4,Artificial/Terrestrial - Rural Gardens
+14_5,Artificial/Terrestrial - Urban Areas
+14_6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest
+15,Artificial/Aquatic & Marine
+15_1,Artificial/Aquatic - Water Storage Areas (over 8ha)
+15_2,Artificial/Aquatic - Ponds (below 8ha)
+15_3,Artificial/Aquatic - Aquaculture Ponds
+15_4,Artificial/Aquatic - Salt Exploitation Sites
+15_5,Artificial/Aquatic - Excavations (open)
+15_6,Artificial/Aquatic - Wastewater Treatment Areas
+15_7,Artificial/Aquatic - Irrigated Land (includes irrigation channels)
+15_8,Artificial/Aquatic - Seasonally Flooded Agricultural Land
+15_9,"Artificial/Aquatic - Canals and Drainage Channels, Ditches"
+15_10,Artificial/Aquatic - Karst and Other Subterranean Hydrological Systems (human-made)
+15_11,Artificial/Marine - Marine Anthropogenic Structures
+15_12,Artificial/Marine - Mariculture Cages
+15_13,Artificial/Marine - Mari/Brackishculture Ponds
+16,Introduced vegetation
+17,Other
+18,Unknown
