@@ -69,6 +69,31 @@ def get_assess(id):
         return r.json()
     except requests.exceptions.HTTPError as e:
         raise SystemExit(e)
+    
+
+def get_code_description(name):
+    try:
+        r = requests.get(
+            f"{DOMAIN}/{name}",
+            headers=HEADERS,
+        )
+        return r.json()
+    except requests.exceptions.HTTPError as e:
+        raise SystemExit(e)
+    
+
+def save_code_description(name):
+    try:
+        json_data = get_code_description(name)
+    except Exception as e:
+        print(e)
+        print(f'Cannot download {name} data')
+    with open(Path(DATA_DIR / f'{name}.csv'), 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['code', 'description'])
+
+        for row in json_data[name]:
+            writer.writerow([row['code'], row['description']['en']])
 
 
 def transform_assess(id, data):
@@ -90,7 +115,7 @@ def transform_assess(id, data):
     ]
 
 
-if __name__ == "__main__":
+def save_en_species():
     total_count, total_pages = get_metatdata_en_species()
     with open(Path(DATA_DIR / 'EN.csv'), 'w', newline='') as f:
         writer = csv.writer(f)
@@ -109,3 +134,9 @@ if __name__ == "__main__":
                 print(e)
                 print(f'Assessment {id} download unsuccessful!')
         print(f'Page 18 data downloaded!')
+
+if __name__ == "__main__":
+    save_code_description('conservation_actions')
+    save_code_description('habitats')
+    save_code_description('locations')
+    save_code_description('threats')
