@@ -102,7 +102,7 @@ def transform_assess(id, data):
         id,
         [conser['code'] for conser in data['conservation_actions'] if conser['code']],
         [(h['code'], h['majorImportance'], h['season']) for h in data['habitats'] if h],
-        [(loc['origin'], loc['code']) for loc in data['locations'] if loc['code']],
+        [(loc['origin'], loc['code'], loc['description']['en']) for loc in data['locations']],
         data['population_trend']['code'] if data['population_trend']['code'] else 'null',
         data['possibly_extinct'],
         data['possibly_extinct_in_the_wild'],
@@ -136,7 +136,7 @@ def save_en_species():
         print(f'Page 18 data downloaded!')
 
 if __name__ == "__main__":
-    save_code_description('conservation_actions')
-    save_code_description('habitats')
-    save_code_description('locations')
-    save_code_description('threats')
+    save_en_species()
+    # save_code_description('conservation_actions')
+    # save_code_description('habitats')
+    # save_code_description('threats')

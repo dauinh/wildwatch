@@ -18,7 +18,7 @@ def transform_en_species_data():
     en_habitats_df = create_relationship_table('en_habitats_df', 'habitats', is_tuple=True, tuples=['code', 'majorImportance', 'season']).drop('habitats', axis=1)
     en_habitats_df['group'] = en_habitats_df['code'].apply(lambda x: x[0])
     
-    en_locations_df = create_relationship_table('en_locations_df', 'locations', is_tuple=True, tuples=['origin', 'code']).drop('locations', axis=1)
+    en_locations_df = create_relationship_table('en_locations_df', 'locations', is_tuple=True, tuples=['origin', 'code', 'description']).drop('locations', axis=1)
 
     en_threats_df = create_relationship_table('en_threats_df', 'threats', is_tuple=True, tuples=['code', 'timing', 'scope', 'score', 'severity']).drop('threats', axis=1)
     en_threats_df['group'] = en_threats_df['code'].apply(lambda x: x[0])

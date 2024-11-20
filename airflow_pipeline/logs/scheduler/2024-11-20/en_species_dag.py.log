@@ -1,0 +1,563 @@
+[2024-11-20T06:23:17.936+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:17.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:23:17.943+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:17.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:19.313+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:19.491+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:19.491+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:23:19.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 1.587 seconds
+[2024-11-20T06:23:27.971+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:27.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:23:27.973+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:27.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:28.339+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:28.350+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:28.350+0000] {taskinstance.py:3313} ERROR - {'DAG Id': 'en_species_etl', 'Task Id': 'extract_en_species_data', 'Run Id': 'manual__2024-11-19T06:17:01.572848+00:00', 'Hostname': 'c62c806ab310', 'External Executor Id': '14c0e9e2-d92a-4a88-af18-841ace9c0c12'}
+[2024-11-20T06:23:28.355+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:28.355+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=en_species_etl, task_id=extract_en_species_data, run_id=manual__2024-11-19T06:17:01.572848+00:00, execution_date=20241119T061701, start_date=20241119T061703, end_date=20241120T062328
+[2024-11-20T06:23:28.363+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:28.363+0000] {processor.py:876} INFO - Executed callback for <TaskInstance: en_species_etl.extract_en_species_data manual__2024-11-19T06:17:01.572848+00:00 [failed]> in state failed
+[2024-11-20T06:23:28.365+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:28.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:23:28.379+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.412 seconds
+[2024-11-20T06:23:58.493+0000] {processor.py:186} INFO - Started process (PID=61) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:58.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:23:58.495+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:58.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:58.846+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:23:58.859+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:58.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:23:58.870+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:23:58.870+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:23:58.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.391 seconds
+[2024-11-20T06:24:29.407+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:24:29.408+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:24:29.409+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:24:29.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:24:29.842+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:24:29.857+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:24:29.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:24:29.869+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:24:29.869+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:24:29.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.475 seconds
+[2024-11-20T06:25:00.090+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:25:00.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:25:00.092+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:25:00.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:25:00.487+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:25:00.499+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:25:00.498+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:25:00.509+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:25:00.509+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:25:00.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.430 seconds
+[2024-11-20T06:25:30.772+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:25:30.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:25:30.774+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:25:30.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:25:31.110+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:25:31.122+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:25:31.122+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:25:31.132+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:25:31.132+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:25:31.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.374 seconds
+[2024-11-20T06:26:01.346+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:26:01.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:26:01.348+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:26:01.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:26:01.597+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:26:01.611+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:26:01.611+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:26:01.622+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:26:01.622+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:26:01.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.291 seconds
+[2024-11-20T06:26:31.971+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:26:31.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:26:31.974+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:26:31.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:26:32.231+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:26:32.244+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:26:32.244+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:26:32.257+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:26:32.256+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:26:32.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.299 seconds
+[2024-11-20T06:27:02.493+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:27:02.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:27:02.496+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:27:02.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:27:02.746+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:27:02.760+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:27:02.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:27:02.772+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:27:02.772+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:27:02.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.295 seconds
+[2024-11-20T06:27:32.986+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:27:32.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:27:32.990+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:27:32.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:27:33.227+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:27:33.240+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:27:33.240+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:27:33.251+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:27:33.251+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:27:33.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.279 seconds
+[2024-11-20T06:28:03.492+0000] {processor.py:186} INFO - Started process (PID=133) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:28:03.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:28:03.495+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:28:03.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:28:03.730+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:28:03.743+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:28:03.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:28:03.753+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:28:03.753+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:28:03.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.276 seconds
+[2024-11-20T06:40:54.917+0000] {processor.py:186} INFO - Started process (PID=44) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:40:54.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:40:54.922+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:40:54.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:40:55.815+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:40:55.848+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:40:55.847+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:40:55.876+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:40:55.876+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:40:55.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.988 seconds
+[2024-11-20T06:41:25.940+0000] {processor.py:186} INFO - Started process (PID=53) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:41:25.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:41:25.944+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:41:25.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:41:26.385+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:41:26.398+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:41:26.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:41:26.408+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:41:26.408+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:41:26.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.481 seconds
+[2024-11-20T06:41:56.700+0000] {processor.py:186} INFO - Started process (PID=61) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:41:56.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:41:56.703+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:41:56.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:41:57.104+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:41:57.119+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:41:57.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:41:57.131+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:41:57.130+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:41:57.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.448 seconds
+[2024-11-20T06:42:27.458+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:42:27.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:42:27.461+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:42:27.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:42:27.854+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:42:27.870+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:42:27.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:42:27.882+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:42:27.882+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:42:27.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.439 seconds
+[2024-11-20T06:42:58.203+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:42:58.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:42:58.206+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:42:58.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:42:58.641+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:42:58.656+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:42:58.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:42:58.668+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:42:58.668+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:42:58.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.480 seconds
+[2024-11-20T06:43:29.003+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:43:29.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:43:29.007+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:43:29.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:43:29.536+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:43:29.561+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:43:29.560+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:43:29.576+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:43:29.576+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:43:29.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.594 seconds
+[2024-11-20T06:44:00.023+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:44:00.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:44:00.027+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:44:00.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:44:00.316+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:44:00.333+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:44:00.333+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:44:00.348+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:44:00.347+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:44:00.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.345 seconds
+[2024-11-20T06:44:30.640+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:44:30.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:44:30.642+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:44:30.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:44:30.889+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:44:30.903+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:44:30.903+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:44:30.914+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:44:30.914+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:44:30.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.293 seconds
+[2024-11-20T06:45:01.248+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:45:01.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:45:01.252+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:45:01.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:45:01.526+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:45:01.541+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:45:01.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:45:01.554+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:45:01.553+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:45:01.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.322 seconds
+[2024-11-20T06:45:31.879+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:45:31.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:45:31.881+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:45:31.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:45:32.156+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:45:32.178+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:45:32.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:45:32.190+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:45:32.190+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:45:32.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.326 seconds
+[2024-11-20T06:46:02.512+0000] {processor.py:186} INFO - Started process (PID=139) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:46:02.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:46:02.516+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:46:02.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:46:02.778+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:46:02.798+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:46:02.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:46:02.808+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:46:02.808+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:46:02.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.308 seconds
+[2024-11-20T06:46:33.130+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:46:33.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:46:33.133+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:46:33.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:46:33.435+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:46:33.451+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:46:33.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:46:33.465+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:46:33.465+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:46:33.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.351 seconds
+[2024-11-20T06:47:03.755+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:47:03.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:47:03.758+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:47:03.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:47:04.026+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:47:04.044+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:47:04.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:47:04.054+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:47:04.054+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:47:04.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.313 seconds
+[2024-11-20T06:47:34.391+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:47:34.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:47:34.394+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:47:34.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:47:34.661+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:47:34.676+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:47:34.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:47:34.690+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:47:34.690+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:47:34.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.312 seconds
+[2024-11-20T06:48:03.021+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:48:03.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:48:03.025+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:48:03.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:48:03.271+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:48:03.389+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:48:03.389+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:48:03.399+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:48:03.399+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:48:03.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.393 seconds
+[2024-11-20T06:48:33.461+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:48:33.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:48:33.464+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:48:33.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:48:33.708+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:48:33.724+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:48:33.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:48:33.736+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:48:33.736+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:48:33.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.289 seconds
+[2024-11-20T06:49:01.933+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:49:01.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:49:01.935+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:49:01.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:49:02.243+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:49:02.262+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:49:02.261+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:49:02.277+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:49:02.277+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:49:02.289+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.361 seconds
+[2024-11-20T06:49:32.404+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:49:32.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:49:32.407+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:49:32.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:49:32.676+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:49:32.693+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:49:32.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:49:32.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.316 seconds
+[2024-11-20T06:50:02.920+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:50:02.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:50:02.922+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:50:02.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:50:03.199+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:50:03.213+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:50:03.213+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:50:03.225+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:50:03.225+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:50:03.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.319 seconds
+[2024-11-20T06:50:33.428+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:50:33.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:50:33.431+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:50:33.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:50:33.690+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:50:33.706+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:50:33.705+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:50:33.718+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:50:33.718+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:50:33.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.303 seconds
+[2024-11-20T06:51:03.916+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:51:03.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:51:03.919+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:51:03.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:51:04.166+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:51:04.180+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:51:04.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:51:04.192+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:51:04.192+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:51:04.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.290 seconds
+[2024-11-20T06:51:34.378+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:51:34.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:51:34.381+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:51:34.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:51:34.625+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:51:34.640+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:51:34.640+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:51:34.651+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:51:34.650+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:51:34.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.288 seconds
+[2024-11-20T06:52:04.906+0000] {processor.py:186} INFO - Started process (PID=250) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:52:04.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:52:04.909+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:52:04.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:52:05.167+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:52:05.180+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:52:05.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:52:05.192+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:52:05.191+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:52:05.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.298 seconds
+[2024-11-20T06:52:35.401+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:52:35.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:52:35.405+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:52:35.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:52:35.659+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:52:35.673+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:52:35.672+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:52:35.683+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:52:35.683+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:52:35.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.296 seconds
+[2024-11-20T06:53:05.873+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:53:05.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:53:05.875+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:53:05.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:53:06.112+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:53:06.126+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:53:06.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:53:06.138+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:53:06.137+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:53:06.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.278 seconds
+[2024-11-20T06:53:36.444+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:53:36.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:53:36.448+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:53:36.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:53:36.718+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:53:36.731+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:53:36.731+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:53:36.744+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:53:36.744+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:53:36.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.315 seconds
+[2024-11-20T06:54:06.943+0000] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:06.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:54:06.946+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:06.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:07.217+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:07.233+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:07.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:54:07.246+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:07.246+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:54:07.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.321 seconds
+[2024-11-20T06:54:37.383+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:37.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:54:37.387+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:37.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:37.650+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:37.668+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:37.667+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:54:37.680+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:37.680+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:54:37.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.313 seconds
+[2024-11-20T06:54:40.500+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:40.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:54:40.502+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:40.502+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:40.787+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:54:40.803+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:40.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:54:40.815+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:54:40.815+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T06:54:40.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.328 seconds
+[2024-11-20T06:55:11.156+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:55:11.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:55:11.159+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:55:11.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:55:11.425+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:55:11.440+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:55:11.440+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:55:11.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.311 seconds
+[2024-11-20T06:55:41.651+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:55:41.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:55:41.654+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:55:41.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:55:41.923+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:55:41.941+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:55:41.941+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:55:41.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.332 seconds
+[2024-11-20T06:56:12.219+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:56:12.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:56:12.221+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:56:12.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:56:12.486+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:56:12.501+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:56:12.501+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:56:12.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.308 seconds
+[2024-11-20T06:56:42.615+0000] {processor.py:186} INFO - Started process (PID=336) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:56:42.617+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:56:42.619+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:56:42.618+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:56:42.867+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:56:42.882+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:56:42.882+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:56:42.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.296 seconds
+[2024-11-20T06:57:13.148+0000] {processor.py:186} INFO - Started process (PID=345) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:57:13.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:57:13.151+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:57:13.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:57:13.391+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:57:13.407+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:57:13.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:57:13.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.285 seconds
+[2024-11-20T06:57:43.660+0000] {processor.py:186} INFO - Started process (PID=354) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:57:43.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:57:43.663+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:57:43.663+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:57:43.930+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:57:43.945+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:57:43.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:57:43.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.310 seconds
+[2024-11-20T06:58:14.150+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:58:14.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:58:14.153+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:58:14.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:58:14.393+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:58:14.407+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:58:14.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:58:14.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.285 seconds
+[2024-11-20T06:58:44.684+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:58:44.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:58:44.686+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:58:44.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:58:44.930+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:58:44.945+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:58:44.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:58:44.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.288 seconds
+[2024-11-20T06:59:15.128+0000] {processor.py:186} INFO - Started process (PID=381) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:59:15.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:59:15.130+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:59:15.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:59:15.368+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:59:15.383+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:59:15.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:59:15.404+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.281 seconds
+[2024-11-20T06:59:45.546+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:59:45.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T06:59:45.549+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:59:45.549+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:59:45.790+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T06:59:45.805+0000] {logging_mixin.py:190} INFO - [2024-11-20T06:59:45.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T06:59:45.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.285 seconds
+[2024-11-20T07:00:16.008+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:00:16.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:00:16.010+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:00:16.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:00:16.252+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:00:16.267+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:00:16.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:00:16.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.284 seconds
+[2024-11-20T07:00:46.509+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:00:46.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:00:46.512+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:00:46.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:00:46.755+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:00:46.769+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:00:46.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:00:46.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.287 seconds
+[2024-11-20T07:01:17.029+0000] {processor.py:186} INFO - Started process (PID=417) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:01:17.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:01:17.032+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:01:17.032+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:01:17.274+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:01:17.288+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:01:17.287+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:01:17.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.285 seconds
+[2024-11-20T07:01:47.573+0000] {processor.py:186} INFO - Started process (PID=425) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:01:47.574+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:01:47.576+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:01:47.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:01:47.820+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:01:47.834+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:01:47.834+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:01:47.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.287 seconds
+[2024-11-20T07:02:17.928+0000] {processor.py:186} INFO - Started process (PID=434) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:02:17.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:02:17.932+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:02:17.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:02:18.173+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:02:18.189+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:02:18.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:02:18.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.287 seconds
+[2024-11-20T07:02:48.514+0000] {processor.py:186} INFO - Started process (PID=443) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:02:48.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:02:48.517+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:02:48.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:02:48.781+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:02:48.796+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:02:48.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:02:48.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.306 seconds
+[2024-11-20T07:03:19.061+0000] {processor.py:186} INFO - Started process (PID=452) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:03:19.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:03:19.065+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:03:19.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:03:19.316+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:03:19.330+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:03:19.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:03:19.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.293 seconds
+[2024-11-20T07:03:49.580+0000] {processor.py:186} INFO - Started process (PID=461) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:03:49.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:03:49.582+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:03:49.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:03:49.863+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:03:49.879+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:03:49.879+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:03:49.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.325 seconds
+[2024-11-20T07:04:20.035+0000] {processor.py:186} INFO - Started process (PID=470) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:04:20.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:04:20.038+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:04:20.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:04:20.302+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:04:20.316+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:04:20.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:04:20.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.304 seconds
+[2024-11-20T07:04:50.683+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:04:50.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:04:50.686+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:04:50.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:04:50.953+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:04:50.968+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:04:50.967+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:04:50.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.313 seconds
+[2024-11-20T07:05:21.155+0000] {processor.py:186} INFO - Started process (PID=488) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:05:21.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:05:21.159+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:05:21.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:05:21.404+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:05:21.420+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:05:21.420+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:05:21.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.291 seconds
+[2024-11-20T07:05:51.729+0000] {processor.py:186} INFO - Started process (PID=497) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:05:51.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:05:51.732+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:05:51.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:05:51.974+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:05:51.988+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:05:51.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:05:52.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.285 seconds
+[2024-11-20T07:06:22.217+0000] {processor.py:186} INFO - Started process (PID=506) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:06:22.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:06:22.219+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:06:22.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:06:22.479+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:06:22.493+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:06:22.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:06:22.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.300 seconds
+[2024-11-20T07:06:52.566+0000] {processor.py:186} INFO - Started process (PID=515) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:06:52.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:06:52.571+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:06:52.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:06:52.816+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:06:52.831+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:06:52.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:06:52.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.294 seconds
+[2024-11-20T07:07:23.158+0000] {processor.py:186} INFO - Started process (PID=524) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:07:23.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:07:23.162+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:07:23.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:07:23.436+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:07:23.452+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:07:23.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:07:23.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.321 seconds
+[2024-11-20T07:07:53.794+0000] {processor.py:186} INFO - Started process (PID=533) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:07:53.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:07:53.798+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:07:53.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:07:54.056+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:07:54.074+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:07:54.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:07:54.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.307 seconds
+[2024-11-20T07:08:24.294+0000] {processor.py:186} INFO - Started process (PID=542) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:08:24.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:08:24.296+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:08:24.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:08:24.545+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:08:24.559+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:08:24.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:08:24.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.292 seconds
+[2024-11-20T07:08:54.742+0000] {processor.py:186} INFO - Started process (PID=551) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:08:54.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:08:54.745+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:08:54.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:08:54.991+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:08:55.007+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:08:55.006+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:08:55.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.290 seconds
+[2024-11-20T07:09:25.195+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:09:25.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:09:25.198+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:09:25.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:09:25.453+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:09:25.469+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:09:25.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:09:25.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.301 seconds
+[2024-11-20T07:09:55.740+0000] {processor.py:186} INFO - Started process (PID=569) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:09:55.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:09:55.743+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:09:55.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:09:55.984+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:09:55.998+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:09:55.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:09:56.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.285 seconds
+[2024-11-20T07:10:26.244+0000] {processor.py:186} INFO - Started process (PID=578) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:10:26.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:10:26.247+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:10:26.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:10:26.485+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:10:26.500+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:10:26.499+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:10:26.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.281 seconds
+[2024-11-20T07:10:56.737+0000] {processor.py:186} INFO - Started process (PID=587) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:10:56.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:10:56.740+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:10:56.740+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:10:56.981+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:10:56.995+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:10:56.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:10:57.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.286 seconds
+[2024-11-20T07:11:27.226+0000] {processor.py:186} INFO - Started process (PID=596) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:11:27.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:11:27.229+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:11:27.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:11:27.472+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:11:27.485+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:11:27.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:11:27.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.284 seconds
+[2024-11-20T07:11:57.819+0000] {processor.py:186} INFO - Started process (PID=605) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:11:57.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:11:57.822+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:11:57.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:11:58.062+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:11:58.077+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:11:58.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:11:58.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.285 seconds
+[2024-11-20T07:12:28.348+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:12:28.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:12:28.351+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:12:28.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:12:28.593+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:12:28.609+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:12:28.609+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:12:28.630+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.287 seconds
+[2024-11-20T07:12:58.830+0000] {processor.py:186} INFO - Started process (PID=623) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:12:58.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:12:58.834+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:12:58.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:12:59.079+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:12:59.094+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:12:59.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:12:59.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.290 seconds
+[2024-11-20T07:13:29.339+0000] {processor.py:186} INFO - Started process (PID=632) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:13:29.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:13:29.342+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:13:29.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:13:29.593+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:13:29.608+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:13:29.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:13:29.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.295 seconds
+[2024-11-20T07:13:59.777+0000] {processor.py:186} INFO - Started process (PID=641) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:13:59.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:13:59.780+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:13:59.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:14:00.057+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:14:00.074+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:14:00.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:14:00.094+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.321 seconds
+[2024-11-20T07:14:30.350+0000] {processor.py:186} INFO - Started process (PID=650) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:14:30.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:14:30.353+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:14:30.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:14:30.598+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:14:30.612+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:14:30.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:14:30.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.288 seconds
+[2024-11-20T07:15:00.823+0000] {processor.py:186} INFO - Started process (PID=659) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:15:00.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:15:00.827+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:15:00.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:15:01.081+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:15:01.098+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:15:01.098+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:15:01.112+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:15:01.112+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T07:15:01.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.305 seconds
+[2024-11-20T07:15:31.442+0000] {processor.py:186} INFO - Started process (PID=668) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:15:31.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:15:31.446+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:15:31.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:15:31.710+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:15:31.725+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:15:31.725+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:15:31.738+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:15:31.738+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T07:15:31.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.312 seconds
+[2024-11-20T07:16:01.950+0000] {processor.py:186} INFO - Started process (PID=683) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:16:01.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:16:01.954+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:16:01.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:16:02.199+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:16:02.215+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:16:02.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:16:02.227+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:16:02.227+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T07:16:02.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.291 seconds
+[2024-11-20T07:16:32.477+0000] {processor.py:186} INFO - Started process (PID=692) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:16:32.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:16:32.480+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:16:32.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:16:32.800+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:16:32.817+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:16:32.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:16:32.829+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:16:32.829+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T07:16:32.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.366 seconds
+[2024-11-20T07:17:02.995+0000] {processor.py:186} INFO - Started process (PID=701) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:17:02.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:17:02.999+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:17:02.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:17:03.245+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:17:03.259+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:17:03.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:17:03.270+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:17:03.270+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T07:17:03.279+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.288 seconds
+[2024-11-20T07:17:33.577+0000] {processor.py:186} INFO - Started process (PID=710) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:17:33.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:17:33.580+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:17:33.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:17:33.822+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:17:33.835+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:17:33.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:17:33.847+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:17:33.847+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T07:17:33.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.285 seconds
+[2024-11-20T07:18:04.058+0000] {processor.py:186} INFO - Started process (PID=719) to work on /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:18:04.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/en_species_dag.py for tasks to queue
+[2024-11-20T07:18:04.061+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:18:04.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:18:04.312+0000] {processor.py:925} INFO - DAG(s) 'en_species_etl' retrieved from /opt/airflow/dags/en_species_dag.py
+[2024-11-20T07:18:04.327+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:18:04.327+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T07:18:04.340+0000] {logging_mixin.py:190} INFO - [2024-11-20T07:18:04.340+0000] {dag.py:4180} INFO - Setting next_dagrun for en_species_etl to 2024-11-01 00:00:00+00:00, run_after=2025-02-21 00:00:00+00:00
+[2024-11-20T07:18:04.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/en_species_dag.py took 0.299 seconds

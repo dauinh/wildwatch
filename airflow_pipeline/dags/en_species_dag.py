@@ -58,7 +58,6 @@ with DAG(
         bucket_name = 'wildwatchstorage'
         hook.load_file(filename='/opt/airflow/processed_data/conservation_actions.csv', key='conservation_actions.csv', bucket_name=bucket_name, replace=True)
         hook.load_file(filename='/opt/airflow/processed_data/habitats.csv', key='habitats.csv', bucket_name=bucket_name, replace=True)
-        hook.load_file(filename='/opt/airflow/processed_data/locations.csv', key='locations.csv', bucket_name=bucket_name, replace=True)
         hook.load_file(filename='/opt/airflow/processed_data/threats.csv', key='threats.csv', bucket_name=bucket_name, replace=True)
 
     load_code_description_data = PythonOperator(
