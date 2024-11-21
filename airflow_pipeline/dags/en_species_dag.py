@@ -3,15 +3,12 @@ from airflow.models import Variable
 sys.path.append(Variable.get("PROJ_DIR"))
 
 from datetime import datetime, timedelta
-import pandas as pd
-import ast
 
-import airflow
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.S3_hook import S3Hook
 
-from scripts import extract_en_species
+from scripts import extract, transform
 
 
 with DAG(
@@ -23,55 +20,52 @@ with DAG(
     render_template_as_native_obj=True
 ) as dag:
 
-    extract_data = PythonOperator(
+    extract_en_species_data = PythonOperator(
         dag=dag,
-        task_id='extract_data',
-        python_callable=extract_en_species.main,
+        task_id='extract_en_species_data',
+        python_callable=extract.en_species_main,
     )
 
-    def transform():
-        df = pd.read_csv('/opt/airflow/raw_data/EN.csv')
-
-        def create_relationship_table(table, column, is_tuple=False, tuples=[]):
-            table = df[['id', column]].copy()
-            table[column] = table[column].apply(ast.literal_eval)
-            table = table.explode(column).dropna().reset_index(drop=True)
-            if is_tuple:
-                table[tuples] = pd.DataFrame(table[column].tolist(), index=table.index)
-            return table
-        
-        conser_act_df = create_relationship_table('conser_act_df', 'conservation_actions')
-        habitats_df = create_relationship_table('habitats_df', 'habitats', is_tuple=True, tuples=['code', 'majorImportance', 'season']).drop('habitats', axis=1)
-        locations_df = create_relationship_table('locations_df', 'locations', is_tuple=True, tuples=['origin', 'code']).drop('locations', axis=1)
-        threats_df = create_relationship_table('threats_df', 'threats', is_tuple=True, tuples=['code', 'timing', 'scope', 'score', 'severity']).drop('threats', axis=1)
-        main_df = df.drop(['conservation_actions', 'locations', 'habitats', 'threats'], axis=1)
-
-        main_df.to_csv('/opt/airflow/processed_data/main.csv', header=True, index=False)
-        habitats_df.to_csv('/opt/airflow/processed_data/habitats.csv', header=True, index=False)
-        locations_df.to_csv('/opt/airflow/processed_data/locations.csv', header=True, index=False)
-        conser_act_df.to_csv('/opt/airflow/processed_data/conservation_actions.csv', header=True, index=False)
-        threats_df.to_csv('/opt/airflow/processed_data/threats.csv', header=True, index=False)
-
-    transform_data = PythonOperator(
+    extract_code_description = PythonOperator(
         dag=dag,
-        task_id='transform_data',
-        python_callable=transform,
+        task_id='extract_code_description',
+        python_callable=extract.code_description_main,
     )
 
-    def load():
+    transform_en_species_data = PythonOperator(
+        dag=dag,
+        task_id='transform_en_species_data',
+        python_callable=transform.transform_en_species_data,
+    )
+
+    def load_en_species():
         hook = S3Hook('s3_conn')
         bucket_name = 'wildwatchstorage'
-        hook.load_file(filename='/opt/airflow/processed_data/main.csv', key='main.csv', bucket_name=bucket_name, replace=True)
-        hook.load_file(filename='/opt/airflow/processed_data/habitats.csv', key='habitats.csv', bucket_name=bucket_name, replace=True)
-        hook.load_file(filename='/opt/airflow/processed_data/locations.csv', key='locations.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/en_main.csv', key='en_main.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/en_habitats.csv', key='en_habitats.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/en_locations.csv', key='en_locations.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/en_conservation_actions.csv', key='en_conservation_actions.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/en_threats.csv', key='en_threats.csv', bucket_name=bucket_name, replace=True)
+
+    load_en_species_data = PythonOperator(
+        dag=dag,
+        task_id='load_en_species_data',
+        python_callable=load_en_species
+    )
+
+    def load_code_description():
+        hook = S3Hook('s3_conn')
+        bucket_name = 'wildwatchstorage'
         hook.load_file(filename='/opt/airflow/processed_data/conservation_actions.csv', key='conservation_actions.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/processed_data/habitats.csv', key='habitats.csv', bucket_name=bucket_name, replace=True)
         hook.load_file(filename='/opt/airflow/processed_data/threats.csv', key='threats.csv', bucket_name=bucket_name, replace=True)
 
-    load_data = PythonOperator(
+    load_code_description_data = PythonOperator(
         dag=dag,
-        task_id='load_data_to_s3',
-        python_callable=load
+        task_id='load_code_description_data',
+        python_callable=load_code_description
     )
 
     # Set dependencies between tasks
-    extract_data >> transform_data >> load_data
+    extract_en_species_data >> transform_en_species_data >> load_en_species_data
+    extract_code_description >> load_code_description_data
