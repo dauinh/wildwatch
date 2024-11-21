@@ -136,7 +136,7 @@ def save_en_species():
         print(f'Page 18 data downloaded!')
 
 if __name__ == "__main__":
-    save_en_species()
-    # save_code_description('conservation_actions')
-    # save_code_description('habitats')
-    # save_code_description('threats')
+    # save_en_species()
+    save_code_description('conservation_actions')
+    save_code_description('habitats')
+    save_code_description('threats')
