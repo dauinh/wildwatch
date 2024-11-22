@@ -10,19 +10,13 @@ The aim is to create a dashboard that:
 
 5. Data visualization
 
-- Tools: Tableau/Power BI/Streamlit
-- Components:
-  - Species Population Trends: Line graphs showing population changes over time.
-  - Geographic Distribution Map: Use latitude/longitude data to show sighting locations on a map.
-  - Conservation Status Overview: Pie charts or bar graphs showing the distribution of conservation statuses (e.g., Endangered, Vulnerable).
-
-- [ ] Connect data source to dashboard
-- [ ] Build visualizations
+- [x] Connect data source to dashboard
+- [x] Build visualizations
 - [ ] Add interactive filters
 
 6. Deploy
 - [ ] Deploy pipeline
-- [ ] Deploy dashboard
+- [x] Deploy dashboard
 
 ## Dataset
 
