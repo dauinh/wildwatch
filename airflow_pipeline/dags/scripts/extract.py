@@ -90,11 +90,12 @@ def get_code_description(name):
 
 
 def extract_code_description(name):
+    json_data = get_code_description(name)
     with open(Path(DATA_DIR / f'{name}.csv'), 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(['code', 'description'])
 
-        for row in get_code_description(name)[name]:
+        for row in json_data[name]:
             writer.writerow([row['code'], row['description']['en']])
 
 

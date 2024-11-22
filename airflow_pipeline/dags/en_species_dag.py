@@ -20,11 +20,11 @@ with DAG(
     render_template_as_native_obj=True
 ) as dag:
 
-    extract_en_species_data = PythonOperator(
-        dag=dag,
-        task_id='extract_en_species_data',
-        python_callable=extract.en_species_main,
-    )
+    # extract_en_species_data = PythonOperator(
+    #     dag=dag,
+    #     task_id='extract_en_species_data',
+    #     python_callable=extract.en_species_main,
+    # )
 
     extract_code_description = PythonOperator(
         dag=dag,
@@ -32,11 +32,11 @@ with DAG(
         python_callable=extract.code_description_main,
     )
 
-    transform_en_species_data = PythonOperator(
-        dag=dag,
-        task_id='transform_en_species_data',
-        python_callable=transform.transform_en_species_data,
-    )
+    # transform_en_species_data = PythonOperator(
+    #     dag=dag,
+    #     task_id='transform_en_species_data',
+    #     python_callable=transform.transform_en_species_data,
+    # )
 
     def load_en_species():
         hook = S3Hook('s3_conn')
@@ -47,18 +47,18 @@ with DAG(
         hook.load_file(filename='/opt/airflow/processed_data/en_conservation_actions.csv', key='en_conservation_actions.csv', bucket_name=bucket_name, replace=True)
         hook.load_file(filename='/opt/airflow/processed_data/en_threats.csv', key='en_threats.csv', bucket_name=bucket_name, replace=True)
 
-    load_en_species_data = PythonOperator(
-        dag=dag,
-        task_id='load_en_species_data',
-        python_callable=load_en_species
-    )
+    # load_en_species_data = PythonOperator(
+    #     dag=dag,
+    #     task_id='load_en_species_data',
+    #     python_callable=load_en_species
+    # )
 
     def load_code_description():
         hook = S3Hook('s3_conn')
         bucket_name = 'wildwatchstorage'
-        hook.load_file(filename='/opt/airflow/processed_data/conservation_actions.csv', key='conservation_actions.csv', bucket_name=bucket_name, replace=True)
-        hook.load_file(filename='/opt/airflow/processed_data/habitats.csv', key='habitats.csv', bucket_name=bucket_name, replace=True)
-        hook.load_file(filename='/opt/airflow/processed_data/threats.csv', key='threats.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/raw_data/conservation_actions.csv', key='conservation_actions.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/raw_data/habitats.csv', key='habitats.csv', bucket_name=bucket_name, replace=True)
+        hook.load_file(filename='/opt/airflow/raw_data/threats.csv', key='threats.csv', bucket_name=bucket_name, replace=True)
 
     load_code_description_data = PythonOperator(
         dag=dag,
@@ -67,5 +67,5 @@ with DAG(
     )
 
     # Set dependencies between tasks
-    extract_en_species_data >> transform_en_species_data >> load_en_species_data
+    # extract_en_species_data >> transform_en_species_data >> load_en_species_data
     extract_code_description >> load_code_description_data

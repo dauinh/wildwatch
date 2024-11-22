@@ -1,0 +1,8 @@
+requests==2.32.3
+python-dotenv==1.0.1
+pytest==8.3.3
+pandas==2.2.2
+matplotlib==3.9.2
+streamlit==1.40.1
+s3fs==2024.10.0
+st-files-connection

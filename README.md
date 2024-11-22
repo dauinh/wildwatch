@@ -8,11 +8,6 @@ The aim is to create a dashboard that:
 
 ## TODO
 
-4. Data analysis
-- [ ] State hypothesis 
-- [ ] Use SQL to aggregate data
-- [ ] Use `pandas` or Spark for tranformation
-
 5. Data visualization
 
 - Tools: Tableau/Power BI/Streamlit
