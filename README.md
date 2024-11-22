@@ -1,30 +1,32 @@
 # wildwatch
 
-The aim is to create a dashboard that:
+[Live dashboard](https://wildwatch.streamlit.app/)
 
-1. Monitors endangered species populations over time.
-2. Tracks species conservation status changes.
-3. Provides visual insights into trends and factors affecting their survival, focusing on endangered species.
+This dashboard shows:
+- Habitat Distribution: Analysis of the habitats of endangered species.
+- Threat Analysis: Identification of key threats to endangered species.
+- Conservation Actions: Overview of conservation efforts for species at risk.
+- Country Ranking: Top 20 countries with the highest number of endangered species.
 
-## TODO
+## Methods
 
-5. Data visualization
+#### Endangered species ETL pipelines
 
-- [x] Connect data source to dashboard
-- [x] Build visualizations
-- [ ] Add interactive filters
+**Tools**: Airflow, pandas
+**Objective**: 
+- Extract data from IUCN official API
+- Transform raw data into structured tables
+- Upload data to AWS S3 for storage and further use
 
-6. Deploy
-- [ ] Deploy pipeline
-- [x] Deploy dashboard
+#### Dashboard
+
+**Tools**: streamlit
+**Objective**: Visualize data distribution using pie charts and other graphical representations
 
 ## Dataset
 
-1. IUCN Red List: Provides conservation status for various species
+IUCN Red List: Provides conservation status for various species
 
 IUCN 2024. IUCN Red List of Threatened Species. Version 2024-2 <www.iucnredlist.org>
 
 [API documentation](https://api.iucnredlist.org/api-docs/index.html)
-
-2. GBIF (Global Biodiversity Information Facility): Offers datasets on species sightings with geographic coordinates, which can be filtered for endangered species.
-3. NOAA: Use NOAA's datasets for environmental factors like ocean temperatures, which could help correlate with animal population trends.
