@@ -13,6 +13,7 @@ This dashboard shows:
 #### Endangered species ETL pipelines
 
 **Tools**: Airflow, pandas
+
 **Objective**: 
 - Extract data from IUCN official API
 - Transform raw data into structured tables
@@ -21,6 +22,7 @@ This dashboard shows:
 #### Dashboard
 
 **Tools**: streamlit
+
 **Objective**: Visualize data distribution using pie charts and other graphical representations
 
 ## Dataset
