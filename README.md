@@ -25,6 +25,9 @@ This dashboard shows:
 
 **Structure**
 
+<img width="483" alt="Screenshot 2024-11-26 at 12 16 50 PM" src="https://github.com/user-attachments/assets/9da3f000-f258-42f4-91f3-f47866f86700">
+
+
 1. Extraction
 
 Data is retrieved from the IUCN Red List API in two main categories:
